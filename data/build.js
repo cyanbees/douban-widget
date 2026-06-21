@@ -293,6 +293,65 @@ async function resolveTMDB(items, apiKey) {
   return items;
 }
 
+// ─── 豆瓣海报抓取（弥补 TMDB 海报不可用的问题） ───
+
+async function fetchDoubanPosters(items) {
+  console.log("[豆瓣海报] 开始抓取 " + items.length + " 部电影的海报...");
+
+  for (var i = 0; i < items.length; i++) {
+    var item = items[i];
+
+    try {
+      // 用搜索页面绕过反爬，搜索页加 bid cookie 可正常返回
+      var searchUrl = "https://movie.douban.com/subject_search?search_text=" +
+        encodeURIComponent(item.title) + "&cat=1002";
+      var res = await fetch(searchUrl, {
+        headers: {
+          "User-Agent": UA,
+          "Referer": "https://movie.douban.com/",
+          "Cookie": "bid=reasonix_build_script",
+        },
+        signal: AbortSignal.timeout(15000),
+      });
+      var html = await res.text();
+      var $ = cheerio.load(html);
+
+      // 在搜索结果中找到匹配 doubanId 的条目，提取海报
+      var found = false;
+      $("a[href*='/subject/" + item.doubanId + "/']").each(function () {
+        if (found) return;
+        var posterImg = $(this).find("img").first();
+        var src = posterImg.attr("src");
+        // 豆瓣海报 CDN URL 包含 "doubanio.com/view/photo/"
+        if (src && src.indexOf("doubanio.com/view/photo/") >= 0) {
+          item.posterPath = src;
+          found = true;
+          console.log("  ✓ " + item.title + ": " + src.substring(0, 60) + "...");
+        }
+      });
+
+      if (!found) {
+        // 兜底：取搜索页第一张海报
+        var firstPoster = $(".item-root .cover img, .detail img, img[src*='doubanio.com/view/photo/']").first().attr("src");
+        if (firstPoster) {
+          item.posterPath = firstPoster;
+          console.log("  ⚠ " + item.title + " (模糊匹配): " + firstPoster.substring(0, 60) + "...");
+        } else {
+          console.warn("  ✗ " + item.title + ": 未找到海报");
+        }
+      }
+    } catch (e) {
+      console.warn("  ✗ " + item.title + ": " + (e.message || e));
+    }
+
+    if (i < items.length - 1) await sleep(1000);
+  }
+
+  var got = items.filter(function (i) { return i.posterPath; }).length;
+  console.log("[豆瓣海报] 完成: " + got + "/" + items.length + " 部有海报");
+  return items;
+}
+
 // ─── 主流程 ───
 
 async function main() {

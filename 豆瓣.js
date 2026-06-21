@@ -273,10 +273,10 @@ async function listComingSoon(params) {
     return pageItems.map(function (item) {
       return {
         id: item.doubanId,
-        type: "douban",
+        type: "url",
         mediaType: "movie",
         title: item.title || "",
-        posterPath: item.posterPath || (item.tmdbPoster ? "https://image.tmdb.org/t/p/w500" + item.tmdbPoster : undefined),
+        coverUrl: item.posterPath || (item.tmdbPoster ? "https://image.tmdb.org/t/p/w500" + item.tmdbPoster : undefined),
       };
     });
 

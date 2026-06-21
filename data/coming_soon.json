@@ -1,7 +1,7 @@
 {
   "doulistId": "coming_soon",
   "title": "即将上映",
-  "updatedAt": "2026-06-21T16:25:57.338Z",
+  "updatedAt": "2026-06-21T16:39:11.734Z",
   "count": 35,
   "items": [
     {
@@ -30,7 +30,7 @@
       "releaseDate": "2026-06-26",
       "genres": "科幻 / 恐怖",
       "region": "美国 / 加拿大",
-      "wishCount": 39417,
+      "wishCount": 39421,
       "posterPath": "https://image.tmdb.org/t/p/w500/nS8TOKb62LnYJy1iszSV2pNEAQk.jpg"
     },
     {
@@ -60,7 +60,7 @@
       "releaseDate": "2026-06-26",
       "genres": "剧情 / 喜剧 / 爱情",
       "region": "泰国",
-      "wishCount": 2402,
+      "wishCount": 2403,
       "posterPath": "https://image.tmdb.org/t/p/w500/tZILgLUZW8BjkydL31yhlaxcZdV.jpg"
     },
     {
@@ -79,7 +79,7 @@
       "releaseDate": "2026-06-27",
       "genres": "剧情 / 喜剧 / 犯罪",
       "region": "中国香港 / 中国大陆",
-      "wishCount": 2210,
+      "wishCount": 2212,
       "posterPath": "https://image.tmdb.org/t/p/w500/azv0T4WEDjaaRe7ZeiegUEsKMHs.jpg"
     },
     {
@@ -129,7 +129,7 @@
       "releaseDate": "2026-07-01",
       "genres": "动作 / 历史 / 奇幻",
       "region": "美国 / 英国",
-      "wishCount": 79096,
+      "wishCount": 79101,
       "posterPath": "https://image.tmdb.org/t/p/w500/3O6ufZBBjLB29NpJOe8awMzQ4XN.jpg"
     },
     {
@@ -159,7 +159,7 @@
       "releaseDate": "2026-07-03",
       "genres": "剧情",
       "region": "中国大陆 / 中国香港",
-      "wishCount": 4550,
+      "wishCount": 4553,
       "posterPath": "https://image.tmdb.org/t/p/w500/mrz0N2VOnwI5L8CVvTnzatKRWC9.jpg"
     },
     {
@@ -179,7 +179,7 @@
       "releaseDate": "2026-07-10",
       "genres": "历史 / 动画",
       "region": "中国大陆",
-      "wishCount": 3978,
+      "wishCount": 3979,
       "posterPath": "https://image.tmdb.org/t/p/w500/vsDiLRTjXmK75PXG2jPn575yCnj.jpg"
     },
     {
@@ -248,7 +248,7 @@
       "releaseDate": "2026-07-29",
       "genres": "动作 / 科幻 / 奇幻",
       "region": "美国",
-      "wishCount": 34418,
+      "wishCount": 34425,
       "posterPath": "https://image.tmdb.org/t/p/w500/6EErlfr8sZjZlx1PF4BND5W8XL6.jpg"
     },
     {
@@ -258,7 +258,7 @@
       "releaseDate": "2026-08-01",
       "genres": "剧情 / 科幻",
       "region": "中国大陆",
-      "wishCount": 3944,
+      "wishCount": 3948,
       "posterPath": "https://image.tmdb.org/t/p/w500/gYsNMAx46IwYtNdeIm4XM6xWZ52.jpg"
     },
     {
@@ -268,7 +268,7 @@
       "releaseDate": "2026-08-07",
       "genres": "喜剧",
       "region": "中国大陆",
-      "wishCount": 9636,
+      "wishCount": 9638,
       "posterPath": "https://image.tmdb.org/t/p/w500/uRplFSxmnJGgzrGMqKB5xu7WMAI.jpg"
     },
     {
@@ -298,7 +298,7 @@
       "releaseDate": "2026-08-14",
       "genres": "动作 / 科幻 / 惊悚",
       "region": "美国",
-      "wishCount": 11644,
+      "wishCount": 11645,
       "posterPath": "https://image.tmdb.org/t/p/w500/a3rWaD4nbPlJ6kSOMO26j8fKS8a.jpg"
     },
     {
