@@ -254,16 +254,10 @@ async function listComingSoon(params) {
     var data = await fetchDataJSON("coming_soon.json");
     if (!data || !data.items) return [];
 
-    // 按上映日期排序
-    var sorted = data.items.slice().sort(function (a, b) {
-      return (a.releaseDate || "").localeCompare(b.releaseDate || "");
-    });
-
-    // 分页
     var page = Number(params.page || 1);
     var pageSize = 25;
     var start = (page - 1) * pageSize;
-    var pageItems = sorted.slice(start, start + pageSize);
+    var pageItems = data.items.slice(start, start + pageSize);
 
     return pageItems.map(function (item) {
       return {
@@ -275,6 +269,7 @@ async function listComingSoon(params) {
         rating: undefined,
       };
     });
+    return pageItems;
 
   } catch (error) {
     console.error("[豆瓣] 即将上映获取失败:", error.message || error);
