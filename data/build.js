@@ -256,32 +256,46 @@ async function resolveTMDB(items, apiKey) {
   for (var i = 0; i < items.length; i++) {
     var item = items[i];
     var year = item.releaseDate ? item.releaseDate.substring(0, 4) : "";
+    var bestResult = null;
 
+    // 第一轮：带年份搜索
     try {
       var url = "https://api.themoviedb.org/3/search/movie?api_key=" + apiKey +
         "&query=" + encodeURIComponent(item.title) +
         "&language=zh-CN&page=1";
       if (year) url += "&year=" + year;
 
-      var res = await fetch(url, {
-        headers: {
-          "Accept": "application/json",
-        },
-      });
+      var res = await fetch(url, { headers: { "Accept": "application/json" } });
       var data = await res.json();
 
       if (data.results && data.results.length > 0) {
-        var best = data.results[0];
-        var resultYear = best.release_date ? best.release_date.substring(0, 4) : "";
-        if (!year || !resultYear || year === resultYear) {
-          item.tmdbId = best.id;
-          if (best.poster_path) {
-            item.posterPath = "https://image.tmdb.org/t/p/w500" + best.poster_path;
-          }
+        var first = data.results[0];
+        var rYear = first.release_date ? first.release_date.substring(0, 4) : "";
+        if (!year || !rYear || year === rYear) {
+          bestResult = first;
         }
       }
-    } catch (e) {
-      console.warn("  ✗ TMDB 搜索失败:", item.title, e.message);
+    } catch (e) { /* ignore */ }
+
+    // 第二轮：不带年份搜索（用于年份不一致但影片正确的情况）
+    if (!bestResult) {
+      try {
+        var url2 = "https://api.themoviedb.org/3/search/movie?api_key=" + apiKey +
+          "&query=" + encodeURIComponent(item.title) +
+          "&language=zh-CN&page=1";
+        var res2 = await fetch(url2, { headers: { "Accept": "application/json" } });
+        var data2 = await res2.json();
+        if (data2.results && data2.results.length > 0) {
+          bestResult = data2.results[0];
+        }
+      } catch (e2) { /* ignore */ }
+    }
+
+    if (bestResult) {
+      item.tmdbId = bestResult.id;
+      if (bestResult.poster_path) {
+        item.posterPath = "https://image.tmdb.org/t/p/w500" + bestResult.poster_path;
+      }
     }
 
     // 控制请求频率

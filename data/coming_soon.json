@@ -1,7 +1,7 @@
 {
   "doulistId": "coming_soon",
   "title": "即将上映",
-  "updatedAt": "2026-06-21T16:39:11.734Z",
+  "updatedAt": "2026-06-21T16:51:42.448Z",
   "count": 35,
   "items": [
     {
@@ -30,7 +30,7 @@
       "releaseDate": "2026-06-26",
       "genres": "科幻 / 恐怖",
       "region": "美国 / 加拿大",
-      "wishCount": 39421,
+      "wishCount": 39428,
       "posterPath": "https://image.tmdb.org/t/p/w500/nS8TOKb62LnYJy1iszSV2pNEAQk.jpg"
     },
     {
@@ -50,7 +50,7 @@
       "releaseDate": "2026-06-26",
       "genres": "历史 / 战争",
       "region": "中国大陆",
-      "wishCount": 6700,
+      "wishCount": 6701,
       "posterPath": "https://image.tmdb.org/t/p/w500/7L9ymMPeBo4hSPlBGPvlzO6102T.jpg"
     },
     {
@@ -60,17 +60,18 @@
       "releaseDate": "2026-06-26",
       "genres": "剧情 / 喜剧 / 爱情",
       "region": "泰国",
-      "wishCount": 2403,
+      "wishCount": 2404,
       "posterPath": "https://image.tmdb.org/t/p/w500/tZILgLUZW8BjkydL31yhlaxcZdV.jpg"
     },
     {
       "doubanId": 36315000,
-      "tmdbId": null,
+      "tmdbId": 1178574,
       "title": "爸爸",
       "releaseDate": "2026-06-27",
       "genres": "剧情",
       "region": "中国香港",
-      "wishCount": 16457
+      "wishCount": 16457,
+      "posterPath": "https://image.tmdb.org/t/p/w500/bPpPAuonyLDqtF6ekTc7UqUVmwq.jpg"
     },
     {
       "doubanId": 36937765,
@@ -79,7 +80,7 @@
       "releaseDate": "2026-06-27",
       "genres": "剧情 / 喜剧 / 犯罪",
       "region": "中国香港 / 中国大陆",
-      "wishCount": 2212,
+      "wishCount": 2216,
       "posterPath": "https://image.tmdb.org/t/p/w500/azv0T4WEDjaaRe7ZeiegUEsKMHs.jpg"
     },
     {
@@ -129,7 +130,7 @@
       "releaseDate": "2026-07-01",
       "genres": "动作 / 历史 / 奇幻",
       "region": "美国 / 英国",
-      "wishCount": 79101,
+      "wishCount": 79102,
       "posterPath": "https://image.tmdb.org/t/p/w500/3O6ufZBBjLB29NpJOe8awMzQ4XN.jpg"
     },
     {
@@ -149,7 +150,7 @@
       "releaseDate": "2026-07-03",
       "genres": "喜剧 / 科幻 / 动画",
       "region": "美国",
-      "wishCount": 10703,
+      "wishCount": 10706,
       "posterPath": "https://image.tmdb.org/t/p/w500/4RRGjHlhCJAU8vkJwzYd2bH9IkL.jpg"
     },
     {
@@ -159,7 +160,7 @@
       "releaseDate": "2026-07-03",
       "genres": "剧情",
       "region": "中国大陆 / 中国香港",
-      "wishCount": 4553,
+      "wishCount": 4554,
       "posterPath": "https://image.tmdb.org/t/p/w500/mrz0N2VOnwI5L8CVvTnzatKRWC9.jpg"
     },
     {
@@ -179,7 +180,7 @@
       "releaseDate": "2026-07-10",
       "genres": "历史 / 动画",
       "region": "中国大陆",
-      "wishCount": 3979,
+      "wishCount": 3981,
       "posterPath": "https://image.tmdb.org/t/p/w500/vsDiLRTjXmK75PXG2jPn575yCnj.jpg"
     },
     {
@@ -199,7 +200,7 @@
       "releaseDate": "2026-07-10",
       "genres": "动画 / 奇幻 / 冒险",
       "region": "中国大陆",
-      "wishCount": 2992,
+      "wishCount": 2993,
       "posterPath": "https://image.tmdb.org/t/p/w500/dKO41iA97UtXuCCtX3kOm8HPWCt.jpg"
     },
     {
@@ -228,7 +229,7 @@
       "releaseDate": "2026-07-24",
       "genres": "喜剧 / 动画 / 奇幻",
       "region": "中国大陆",
-      "wishCount": 815,
+      "wishCount": 816,
       "posterPath": "https://image.tmdb.org/t/p/w500/aXnmhBIdgZNxlJZDHIqkRwxHsGi.jpg"
     },
     {
@@ -248,7 +249,7 @@
       "releaseDate": "2026-07-29",
       "genres": "动作 / 科幻 / 奇幻",
       "region": "美国",
-      "wishCount": 34425,
+      "wishCount": 34428,
       "posterPath": "https://image.tmdb.org/t/p/w500/6EErlfr8sZjZlx1PF4BND5W8XL6.jpg"
     },
     {
@@ -258,7 +259,7 @@
       "releaseDate": "2026-08-01",
       "genres": "剧情 / 科幻",
       "region": "中国大陆",
-      "wishCount": 3948,
+      "wishCount": 3952,
       "posterPath": "https://image.tmdb.org/t/p/w500/gYsNMAx46IwYtNdeIm4XM6xWZ52.jpg"
     },
     {
@@ -268,7 +269,7 @@
       "releaseDate": "2026-08-07",
       "genres": "喜剧",
       "region": "中国大陆",
-      "wishCount": 9638,
+      "wishCount": 9640,
       "posterPath": "https://image.tmdb.org/t/p/w500/uRplFSxmnJGgzrGMqKB5xu7WMAI.jpg"
     },
     {
@@ -298,7 +299,7 @@
       "releaseDate": "2026-08-14",
       "genres": "动作 / 科幻 / 惊悚",
       "region": "美国",
-      "wishCount": 11645,
+      "wishCount": 11648,
       "posterPath": "https://image.tmdb.org/t/p/w500/a3rWaD4nbPlJ6kSOMO26j8fKS8a.jpg"
     },
     {
@@ -342,12 +343,13 @@
     },
     {
       "doubanId": 36212391,
-      "tmdbId": null,
+      "tmdbId": 1231322,
       "title": "流浪地球3(上)",
       "releaseDate": "2027-02-06",
       "genres": "科幻 / 冒险 / 灾难",
       "region": "中国大陆",
-      "wishCount": 96102
+      "wishCount": 96103,
+      "posterPath": "https://image.tmdb.org/t/p/w500/7pNAki9AIaJGhNFOs8ePTFI0lDc.jpg"
     }
   ]
 }
