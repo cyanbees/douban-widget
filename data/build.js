@@ -275,7 +275,9 @@ async function resolveTMDB(items, apiKey) {
         var resultYear = best.release_date ? best.release_date.substring(0, 4) : "";
         if (!year || !resultYear || year === resultYear) {
           item.tmdbId = best.id;
-          item.tmdbPoster = best.poster_path || null;
+          if (best.poster_path) {
+            item.posterPath = "https://image.tmdb.org/t/p/w500" + best.poster_path;
+          }
         }
       }
     } catch (e) {
@@ -311,32 +313,13 @@ async function main() {
       return (a.releaseDate || "").localeCompare(b.releaseDate || "");
     });
 
-    // 转为豆列格式（去掉 tmdbId/genres/region/wishCount 等多余字段）
-    var doulistItems = items.map(function (item) {
-      var year = 0;
-      if (item.releaseDate) {
-        var ym = item.releaseDate.match(/^(\d{4})/);
-        if (ym) year = parseInt(ym[1], 10);
-      }
-      return {
-        doubanId: item.doubanId,
-        title: item.title || "",
-        tmdbId: item.tmdbId || null,
-        tmdbPoster: item.tmdbPoster || null,
-        posterPath: null,
-        rating: null,
-        year: year,
-      };
-    });
-
     var outFile = path.join(DATA_DIR, "coming_soon.json");
     fs.writeFileSync(outFile, JSON.stringify({
-      doulistId: "coming_soon",
-      title: "即将上映",
-      count: doulistItems.length,
-      items: doulistItems,
+      updatedAt: new Date().toISOString(),
+      count: items.length,
+      items: items,
     }, null, 2), "utf8");
-    console.log("\n→ 已写入: coming_soon.json (共 " + doulistItems.length + " 部)");
+    console.log("\n→ 已写入: coming_soon.json (共 " + items.length + " 部)");
     return;
   }
 
@@ -401,33 +384,18 @@ async function main() {
   // ─── 即将上映 ───
   console.log("\n── 即将上映 ──");
   var comingItems = await fetchComingSoon();
+  var apiKey = process.env.TMDB_API_KEY || "";
+  comingItems = await resolveTMDB(comingItems, apiKey);
   comingItems.sort(function (a, b) {
     return (a.releaseDate || "").localeCompare(b.releaseDate || "");
   });
-  var doulistItems = comingItems.map(function (item) {
-    var year = 0;
-    if (item.releaseDate) {
-      var ym = item.releaseDate.match(/^(\d{4})/);
-      if (ym) year = parseInt(ym[1], 10);
-    }
-    return {
-      doubanId: item.doubanId,
-      title: item.title || "",
-      tmdbId: item.tmdbId || null,
-      tmdbPoster: item.tmdbPoster || null,
-      posterPath: null,
-      rating: null,
-      year: year,
-    };
-  });
   var comingFile = path.join(DATA_DIR, "coming_soon.json");
   fs.writeFileSync(comingFile, JSON.stringify({
-    doulistId: "coming_soon",
-    title: "即将上映",
-    count: doulistItems.length,
-    items: doulistItems,
+    updatedAt: new Date().toISOString(),
+    count: comingItems.length,
+    items: comingItems,
   }, null, 2), "utf8");
-  console.log(`→ 已写入: coming_soon.json (共 ${doulistItems.length} 部)`);
+  console.log(`→ 已写入: coming_soon.json (共 ${comingItems.length} 部)`);
 
   console.log("\n═══════════════════════════════");
   console.log("  构建完成!");
