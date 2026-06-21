@@ -175,12 +175,156 @@ async function fetchDoulist(doulistId, doulistTitle) {
   return allItems;
 }
 
+// ─── 即将上映抓取 ───
+
+/**
+ * 将豆瓣中文日期转为 ISO 日期字符串
+ * "06月25日" → "2026-06-25"
+ * "2027年02月06日" → "2027-02-06"
+ */
+function parseComingSoonDate(dateText, currentYear) {
+  var fullMatch = dateText.match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
+  if (fullMatch) {
+    return fullMatch[1] + "-" + fullMatch[2].padStart(2, "0") + "-" + fullMatch[3].padStart(2, "0");
+  }
+  var shortMatch = dateText.match(/(\d{1,2})月(\d{1,2})日/);
+  if (shortMatch) {
+    return currentYear + "-" + shortMatch[1].padStart(2, "0") + "-" + shortMatch[2].padStart(2, "0");
+  }
+  var monthOnly = dateText.match(/(\d{1,2})月/);
+  if (monthOnly) {
+    return currentYear + "-" + monthOnly[1].padStart(2, "0") + "-01";
+  }
+  return "";
+}
+
+/**
+ * 抓取豆瓣即将上映页面
+ */
+async function fetchComingSoon() {
+  console.log("[即将上映] 开始抓取...");
+  var $ = await fetchPage("https://movie.douban.com/coming");
+  var currentYear = new Date().getFullYear();
+  var items = [];
+
+  $("table tr").each(function (i, el) {
+    var cells = $(el).find("td");
+    if (cells.length < 5) return;
+
+    var dateText = $(cells[0]).text().trim();
+    if (!dateText) return;
+
+    var $link = $(cells[1]).find("a");
+    var href = $link.attr("href") || "";
+    var title = $link.text().trim() || $(cells[1]).text().trim();
+
+    var match = href.match(/movie\.douban\.com\/subject\/(\d+)/);
+    if (!match) return;
+
+    var doubanId = Number(match[1]);
+    var genres = $(cells[2]).text().trim();
+    var region = $(cells[3]).text().trim();
+
+    var wishText = $(cells[4]).text().trim();
+    var wishMatch = wishText.match(/(\d+)/);
+    var wishCount = wishMatch ? parseInt(wishMatch[1], 10) : 0;
+
+    items.push({
+      doubanId: doubanId,
+      tmdbId: null,
+      title: title,
+      releaseDate: parseComingSoonDate(dateText, currentYear),
+      genres: genres,
+      region: region,
+      wishCount: wishCount,
+    });
+  });
+
+  console.log(`[即将上映] 抓取完成，共 ${items.length} 部`);
+  return items;
+}
+
+// ─── TMDB 匹配 ───
+
+async function resolveTMDB(items, apiKey) {
+  if (!apiKey) {
+    console.log("[TMDB] 无 API Key，跳过匹配");
+    return items;
+  }
+  console.log("[TMDB] 开始匹配 " + items.length + " 部电影...");
+
+  for (var i = 0; i < items.length; i++) {
+    var item = items[i];
+    var year = item.releaseDate ? item.releaseDate.substring(0, 4) : "";
+
+    try {
+      var url = "https://api.themoviedb.org/3/search/movie?api_key=" + apiKey +
+        "&query=" + encodeURIComponent(item.title) +
+        "&language=zh-CN&page=1";
+      if (year) url += "&year=" + year;
+
+      var res = await fetch(url, {
+        headers: {
+          "Accept": "application/json",
+        },
+      });
+      var data = await res.json();
+
+      if (data.results && data.results.length > 0) {
+        var best = data.results[0];
+        // 验证年份是否匹配
+        var resultYear = best.release_date ? best.release_date.substring(0, 4) : "";
+        if (!year || !resultYear || year === resultYear) {
+          item.tmdbId = best.id;
+        }
+      }
+    } catch (e) {
+      console.warn("  ✗ TMDB 搜索失败:", item.title, e.message);
+    }
+
+    // 控制请求频率
+    if (i < items.length - 1) await sleep(300);
+  }
+
+  var matched = items.filter(function (i) { return i.tmdbId; }).length;
+  console.log("[TMDB] 匹配完成: " + matched + "/" + items.length + " 部");
+  return items;
+}
+
 // ─── 主流程 ───
 
 async function main() {
+  var args = process.argv.slice(2);
+  var onlyComingSoon = args.indexOf("--coming-soon") >= 0;
+
+  if (onlyComingSoon) {
+    // ── 仅更新即将上映 ──
+    console.log("═══════════════════════════════");
+    console.log("  即将上映更新工具");
+    console.log("═══════════════════════════════\n");
+
+    var items = await fetchComingSoon();
+    var apiKey = process.env.TMDB_API_KEY || "";
+    items = await resolveTMDB(items, apiKey);
+
+    items.sort(function (a, b) {
+      return (a.releaseDate || "").localeCompare(b.releaseDate || "");
+    });
+
+    var outFile = path.join(DATA_DIR, "coming_soon.json");
+    fs.writeFileSync(outFile, JSON.stringify({
+      updatedAt: new Date().toISOString(),
+      count: items.length,
+      items: items,
+    }, null, 2), "utf8");
+    console.log("\n→ 已写入: coming_soon.json (共 " + items.length + " 部)");
+    return;
+  }
+
+  // ── 完整构建：豆列 + 即将上映 ──
   console.log("═══════════════════════════════");
   console.log("  豆瓣豆列构建工具 v1.0");
-  console.log(`  共 ${Object.keys(DOULISTS).length} 个豆列`);
+  console.log("  共 " + Object.keys(DOULISTS).length + " 个豆列");
   console.log("═══════════════════════════════\n");
 
   const allMoviesMap = new Map(); // doubanId → item（全局去重）
@@ -234,6 +378,22 @@ async function main() {
     movies: allMovies,
   }, null, 2), "utf8");
   console.log(`→ 已写入: movies.json (去重后共 ${allMovies.length} 部)`);
+
+  // ─── 即将上映 ───
+  console.log("\n── 即将上映 ──");
+  var comingItems = await fetchComingSoon();
+  var apiKey = process.env.TMDB_API_KEY || "";
+  comingItems = await resolveTMDB(comingItems, apiKey);
+  comingItems.sort(function (a, b) {
+    return (a.releaseDate || "").localeCompare(b.releaseDate || "");
+  });
+  var comingFile = path.join(DATA_DIR, "coming_soon.json");
+  fs.writeFileSync(comingFile, JSON.stringify({
+    updatedAt: new Date().toISOString(),
+    count: comingItems.length,
+    items: comingItems,
+  }, null, 2), "utf8");
+  console.log(`→ 已写入: coming_soon.json (共 ${comingItems.length} 部)`);
 
   console.log("\n═══════════════════════════════");
   console.log("  构建完成!");
