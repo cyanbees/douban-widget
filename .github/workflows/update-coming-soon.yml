@@ -1,8 +1,8 @@
 name: 更新豆瓣即将上映
 on:
   schedule:
-    - cron: '0 0 * * *'   # 每天 UTC 00:00
-  workflow_dispatch:       # 可手动触发
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update:
@@ -16,7 +16,7 @@ jobs:
       - name: 抓取即将上映并匹配 TMDB
         run: node data/build.js --coming-soon
         env:
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TMDB_API_KEY: 8ffd70fb12c003093664f4aeb7b9fc5c
       - name: 提交更新
         run: |
           git config user.name "github-actions[bot]"
