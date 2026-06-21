@@ -64,7 +64,13 @@ WidgetMetadata = {
       title: "即将上映",
       functionName: "listComingSoon",
       cacheDuration: 43200,
-      params: []
+      params: [
+        {
+          name: "page",
+          title: "页码",
+          type: "page",
+        }
+      ],
     }
   ],
 };
@@ -257,17 +263,18 @@ async function listComingSoon(params) {
     var data = typeof res.data === "object" ? res.data : JSON.parse(res.data);
     if (!data || !data.items) return [];
 
-    // 按上映日期排序（从近到远）
-    var now = new Date();
-    var today = now.getFullYear() + "-" +
-      String(now.getMonth() + 1).padStart(2, "0") + "-" +
-      String(now.getDate()).padStart(2, "0");
-
+    // 按上映日期排序
     var sorted = data.items.slice().sort(function (a, b) {
       return (a.releaseDate || "").localeCompare(b.releaseDate || "");
     });
 
-    return sorted.map(function (item) {
+    // 分页
+    var page = Number(params.page || 1);
+    var pageSize = 25;
+    var start = (page - 1) * pageSize;
+    var pageItems = sorted.slice(start, start + pageSize);
+
+    return pageItems.map(function (item) {
       var displayTitle = item.title;
       if (item.releaseDate) {
         displayTitle = "[" + item.releaseDate.substring(5) + "] " + item.title;
