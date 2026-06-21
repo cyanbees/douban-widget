@@ -271,12 +271,17 @@ async function listComingSoon(params) {
     console.log("[豆瓣] 即将上映: 第" + page + "页, 共" + pageItems.length + "条");
 
     return pageItems.map(function (item) {
+      var displayTitle = item.title || "";
+      if (item.releaseDate) {
+        displayTitle = "[" + item.releaseDate.substring(5) + "] " + displayTitle;
+      }
       return {
         id: item.tmdbId,
         type: "tmdb",
         mediaType: "movie",
-        title: item.title || "",
+        title: displayTitle,
         posterPath: item.posterPath || undefined,
+        releaseDate: item.releaseDate || undefined,
       };
     });
 
