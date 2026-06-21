@@ -63,7 +63,7 @@ WidgetMetadata = {
       id: "comingSoon",
       title: "即将上映",
       functionName: "list",
-      cacheDuration: 43200,
+      cacheDuration: 30,
       params: [
         {
           name: "list",
