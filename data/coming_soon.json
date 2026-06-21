@@ -1,18 +1,9 @@
 {
   "doulistId": "coming_soon",
   "title": "即将上映",
-  "updatedAt": "2026-06-21T16:51:42.448Z",
-  "count": 35,
+  "updatedAt": "2026-06-21T16:54:49.065Z",
+  "count": 32,
   "items": [
-    {
-      "doubanId": 37497264,
-      "tmdbId": null,
-      "title": "守密者",
-      "releaseDate": "2026-02-01",
-      "genres": "剧情",
-      "region": "中国大陆",
-      "wishCount": 453
-    },
     {
       "doubanId": 34786813,
       "tmdbId": 1714841,
@@ -30,7 +21,7 @@
       "releaseDate": "2026-06-26",
       "genres": "科幻 / 恐怖",
       "region": "美国 / 加拿大",
-      "wishCount": 39428,
+      "wishCount": 39429,
       "posterPath": "https://image.tmdb.org/t/p/w500/nS8TOKb62LnYJy1iszSV2pNEAQk.jpg"
     },
     {
@@ -190,7 +181,7 @@
       "releaseDate": "2026-07-10",
       "genres": "喜剧 / 动作 / 奇幻",
       "region": "美国 / 新西兰",
-      "wishCount": 3688,
+      "wishCount": 3689,
       "posterPath": "https://image.tmdb.org/t/p/w500/9BnjnrfoZbeNjwXICd8Sax8zKeH.jpg"
     },
     {
@@ -202,15 +193,6 @@
       "region": "中国大陆",
       "wishCount": 2993,
       "posterPath": "https://image.tmdb.org/t/p/w500/dKO41iA97UtXuCCtX3kOm8HPWCt.jpg"
-    },
-    {
-      "doubanId": 37435260,
-      "tmdbId": null,
-      "title": "林家宅37号",
-      "releaseDate": "2026-07-17",
-      "genres": "悬疑 / 惊悚",
-      "region": "中国大陆",
-      "wishCount": 50
     },
     {
       "doubanId": 37021936,
@@ -259,7 +241,7 @@
       "releaseDate": "2026-08-01",
       "genres": "剧情 / 科幻",
       "region": "中国大陆",
-      "wishCount": 3952,
+      "wishCount": 3954,
       "posterPath": "https://image.tmdb.org/t/p/w500/gYsNMAx46IwYtNdeIm4XM6xWZ52.jpg"
     },
     {
@@ -279,7 +261,7 @@
       "releaseDate": "2026-08-08",
       "genres": "喜剧 / 动画 / 悬疑",
       "region": "中国大陆",
-      "wishCount": 1815,
+      "wishCount": 1816,
       "posterPath": "https://image.tmdb.org/t/p/w500/pMr7CamEiowr4Agoza4LA6CX0qe.jpg"
     },
     {
@@ -311,15 +293,6 @@
       "region": "中国大陆",
       "wishCount": 462,
       "posterPath": "https://image.tmdb.org/t/p/w500/eT0danpvSg5uAoJMoXgwG7yvJza.jpg"
-    },
-    {
-      "doubanId": 36994226,
-      "tmdbId": null,
-      "title": "偷偷喜欢你",
-      "releaseDate": "2026-08-19",
-      "genres": "剧情 / 爱情",
-      "region": "中国台湾",
-      "wishCount": 445
     },
     {
       "doubanId": 35390242,

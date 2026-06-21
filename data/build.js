@@ -382,6 +382,11 @@ async function main() {
     var apiKey = process.env.TMDB_API_KEY || "";
     items = await resolveTMDB(items, apiKey);
 
+    // 只保留有 TMDB ID 的条目
+    var before = items.length;
+    items = items.filter(function (i) { return i.tmdbId; });
+    console.log("[即将上映] 过滤后: " + items.length + "/" + before + " 部 (无 TMDB 的已排除)");
+
     items.sort(function (a, b) {
       return (a.releaseDate || "").localeCompare(b.releaseDate || "");
     });
@@ -461,6 +466,7 @@ async function main() {
   var comingItems = await fetchComingSoon();
   var apiKey = process.env.TMDB_API_KEY || "";
   comingItems = await resolveTMDB(comingItems, apiKey);
+  comingItems = comingItems.filter(function (i) { return i.tmdbId; });
   comingItems.sort(function (a, b) {
     return (a.releaseDate || "").localeCompare(b.releaseDate || "");
   });
