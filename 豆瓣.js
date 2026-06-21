@@ -277,10 +277,10 @@ async function listComingSoon(params) {
       }
       return {
         id: item.tmdbId,
-        type: "tmdb",
+        type: "url",
         mediaType: "movie",
         title: displayTitle,
-        posterPath: item.posterPath || undefined,
+        coverUrl: item.posterPath || undefined,
         releaseDate: item.releaseDate || undefined,
       };
     });
