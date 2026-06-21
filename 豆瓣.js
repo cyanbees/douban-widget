@@ -275,12 +275,18 @@ async function listComingSoon(params) {
       if (item.releaseDate) {
         displayTitle = "[" + item.releaseDate.substring(5) + "] " + displayTitle;
       }
+      // posterPath 传 TMDB raw path（以/开头），App 会自动拼接 image.tmdb.org
+      var rawPoster = null;
+      if (item.posterPath) {
+        var m = item.posterPath.match(/\/[^/]+\.jpg$/);
+        if (m) rawPoster = m[0];
+      }
       return {
         id: item.tmdbId,
         type: "tmdb",
         mediaType: "movie",
         title: displayTitle,
-        posterPath: item.posterPath || undefined,
+        posterPath: rawPoster,
         releaseDate: item.releaseDate || undefined,
       };
     });
