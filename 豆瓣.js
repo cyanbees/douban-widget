@@ -266,15 +266,11 @@ async function listComingSoon(params) {
     var pageItems = sorted.slice(start, start + pageSize);
 
     return pageItems.map(function (item) {
-      var displayTitle = item.title;
-      if (item.releaseDate) {
-        displayTitle = "[" + item.releaseDate.substring(5) + "] " + item.title;
-      }
       return {
         id: item.doubanId,
         type: "douban",
         mediaType: "movie",
-        title: displayTitle,
+        title: item.title || undefined,
         posterPath: undefined,
         rating: undefined,
       };
