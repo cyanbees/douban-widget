@@ -255,10 +255,11 @@ async function listComingSoon(params) {
 
     return pageItems.map(function (item) {
       return {
-        id: item.tmdbId || item.doubanId,
-        type: item.tmdbId ? "tmdb" : "douban",
+        id: "s" + item.doubanId,
+        type: "url",
         mediaType: "movie",
         title: item.title || undefined,
+        url: "",
       };
     });
 
