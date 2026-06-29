@@ -260,7 +260,7 @@ async function listComingSoon(params) {
   try {
     var res = await Widget.http.get(COMING_SOON_URL, {
       headers: { "User-Agent": "Mozilla/5.0" },
-      timeout: 5000,
+      timeout: 10000,
     });
     if (!res || !res.data) return [];
 
