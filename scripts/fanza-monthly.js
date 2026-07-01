@@ -321,6 +321,17 @@ async function main() {
     console.log("  CID 提取异常:", e && e.message ? e.message.substring(0,60) : e);
   }
   }
+  // 调试: cids 为 0 时输出页面内容
+  if (cids.length < 5) {
+    try {
+      var pageContent = await page.content();
+      console.log('  页面HTML前500:', pageContent.substring(0, 500).replace(/\\s+/g, ' '));
+      var pageTitle = await page.title();
+      console.log('  标题:', pageTitle);
+      var pageUrl2 = page.url();
+      console.log('  URL:', pageUrl2.substring(0, 100));
+    } catch(e3) {}
+  }
   // 3. 逐个访问详情页提取メーカー品番
   if (graphqlData) {
     const regex = /\{"id":"([^"]+)","rank":(\d+),/g;
