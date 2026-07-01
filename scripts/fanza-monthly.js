@@ -284,23 +284,25 @@ function guessProductCode(cid) {
 
   // 去掉 h_ 前缀和后面的数字 studio 号
   // h_1133yako00073 → yako00073
-  let m = s.match(/^h_\d+([a-z]+)(\d+)$/);
+  m = s.match(/^h_\d+([a-z]+)(\d+)([a-z]?)$/);
   if (m) {
     const prefix = m[1].toUpperCase();
     const num = parseInt(m[2], 10);
-    return prefix + '-' + String(num).padStart(3, '0');
+    const suffix = m[3] ? m[3].toUpperCase() : '';
+    return prefix + '-' + String(num).padStart(3, '0') + suffix;
   }
 
   // 去掉开头的纯数字内容类型前缀: 1xxxx, 13xxxx
   // 1start00373 → start00373, 13dsvr01947 → dsvr01947
   s = s.replace(/^\d+/, '');
 
-  // 标准模式: 字母前缀 + 数字（去掉前导零）
-  m = s.match(/^([a-z]+?)(\d+)$/);
+  // 标准模式: 字母前缀 + 数字（去掉前导零），可选后缀
+  m = s.match(/^([a-z]+?)(\d+)([a-z]?)$/);
   if (m) {
     const prefix = m[1].toUpperCase();
     const num = parseInt(m[2], 10);
-    return prefix + '-' + String(num).padStart(3, '0');
+    const suffix = m[3] ? m[3].toUpperCase() : '';
+    return prefix + '-' + String(num).padStart(3, '0') + suffix;
   }
 
   // 最后兜底
