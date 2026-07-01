@@ -27,6 +27,7 @@ jobs:
       - name: 爬取 FANZA 月度榜单
         run: node scripts/fanza-monthly.js
         env:
+          TERM: monthly
           JAVDB_USER: ${{ secrets.JAVDB_USER }}
           JAVDB_PASS: ${{ secrets.JAVDB_PASS }}
 
