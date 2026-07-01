@@ -147,45 +147,52 @@ async function main() {
   // 处理年龄验证 + 自动登录 (日榜/周榜需要 DMM 账号)
   try {
     await page.waitForTimeout(2000);
-    const pageUrl = page.url();
-    console.log('  当前URL:', pageUrl.substring(0, 80));
+    console.log('  当前URL:', page.url().substring(0, 80));
 
-    if (pageUrl.includes('login') || pageUrl.includes('accounts.dmm.co.jp')) {
-      console.log('  检测到登录页面，自动登录...');
-      const dmmUser = process.env.DMM_USER || '';
-      const dmmPass = process.env.DMM_PASS || '';
-      if (dmmUser && dmmPass) {
-        await page.waitForSelector('input[name="login_id"], input[type="email"]', { timeout: 10000 });
-        var emailInput = await page.$('input[name="login_id"], input[type="email"]');
-        if (emailInput) await emailInput.fill(dmmUser);
-        await page.waitForTimeout(500);
-        var passInput = await page.$('input[name="password"], input[type="password"]');
-        if (passInput) await passInput.fill(dmmPass);
-        await page.waitForTimeout(500);
-        var loginBtn = await page.$('button[type="submit"], input[type="submit"]');
-        if (loginBtn) {
-          await Promise.all([
-            page.waitForNavigation({ timeout: 15000 }).catch(function(){}),
-            loginBtn.click(),
-          ]);
-          await page.waitForTimeout(3000);
-          console.log('  登录完成, URL:', page.url().substring(0, 80));
+    // 循环处理：年龄验证 → 登录 → 直到到达排名页
+    for (var step = 0; step < 5; step++) {
+      var url = page.url();
+      if (url.includes('term=') || url.includes('ranking')) break;
+
+      if (url.includes('login') || url.includes('accounts.dmm.co.jp')) {
+        console.log('  检测到登录页面，自动登录...');
+        var dmmUser = process.env.DMM_USER || '';
+        var dmmPass = process.env.DMM_PASS || '';
+        if (dmmUser && dmmPass) {
+          await page.waitForSelector('input[name="login_id"], input[type="email"]', { timeout: 10000 });
+          var eInput = await page.$('input[name="login_id"], input[type="email"]');
+          if (eInput) await eInput.fill(dmmUser);
+          await page.waitForTimeout(500);
+          var pInput = await page.$('input[name="password"], input[type="password"]');
+          if (pInput) await pInput.fill(dmmPass);
+          await page.waitForTimeout(500);
+          var btn = await page.$('button[type="submit"], input[type="submit"]');
+          if (btn) {
+            await Promise.all([
+              page.waitForNavigation({ timeout: 15000 }).catch(function(){}),
+              btn.click(),
+            ]);
+            await page.waitForTimeout(3000);
+            console.log('  登录完成, URL:', page.url().substring(0, 80));
+          }
+        } else {
+          console.log('  未配置 DMM 账号');
+          break;
         }
       } else {
-        console.log('  未配置 DMM 账号，跳过登录');
+        // 年龄验证
+        try {
+          var ageBtn = await page.waitForSelector('a[href*="declared=yes"]', { timeout: 3000 });
+          if (ageBtn) {
+            console.log('  年龄验证 - 点击...');
+            await Promise.all([
+              page.waitForNavigation({ timeout: 15000 }).catch(function(){}),
+              ageBtn.click(),
+            ]);
+            await page.waitForTimeout(2000);
+          } else { break; }
+        } catch (e2) { break; }
       }
-    } else {
-      try {
-        var ageBtn = await page.waitForSelector('a[href*="declared=yes"]', { timeout: 3000 });
-        if (ageBtn) {
-          console.log('  年龄验证 - 点击...');
-          await Promise.all([
-            page.waitForNavigation({ timeout: 15000 }).catch(function(){}),
-            ageBtn.click(),
-          ]);
-          await page.waitForTimeout(2000);
-        }
-      } catch (e2) { console.log('  无需年龄验证'); }
     }
   } catch (e) {
     console.log('  页面处理异常:', e && e.message ? e.message.substring(0, 60) : e);
