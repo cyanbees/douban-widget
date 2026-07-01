@@ -195,27 +195,18 @@ async function main() {
       }
     }
 
-    // 直接跳转到排名页
-    if (!page.url().includes('term=') && !page.url().includes('ranking')) {
-      console.log('  跳转到排名页面:', DMM_RANKING_URL);
-      await page.goto(DMM_RANKING_URL, { waitUntil: 'domcontentloaded', timeout: 30000 });
-      await page.waitForTimeout(3000);
+    // 直接跳转到排名页 (最多重试3次)
+    for (var retry = 0; retry < 3; retry++) {
+      await page.goto(DMM_RANKING_URL, { waitUntil: 'domcontentloaded', timeout: 15000 }).catch(function(){});
+      await page.waitForTimeout(2000);
+      if (page.url().includes('term=') || page.url().includes('ranking')) break;
+      console.log('  排名页重定向, 重试...');
     }
   } catch (e) {
     console.log('  页面处理异常:', e && e.message ? e.message.substring(0, 80) : e);
   }
   console.log('  最终URL:', page.url().substring(0, 80));
 
-  // 确保在排名页面
-  var currentUrl = page.url();
-  if (!currentUrl.includes('term=') && !currentUrl.includes('ranking')) {
-    console.log('  重定向到排名页面...');
-    await page.goto(DMM_RANKING_URL, { waitUntil: 'domcontentloaded', timeout: 30000 });
-    await page.waitForTimeout(2000);
-  }
-  console.log('  当前URL:', page.url().substring(0, 80));
-
-  // 等待页面稳定后再滚动
   await page.waitForTimeout(3000);
   console.log('  当前URL:', page.url().substring(0, 80));
 
