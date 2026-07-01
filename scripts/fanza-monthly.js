@@ -282,19 +282,21 @@ async function main() {
   } catch (e) {
     console.log("  CID 提取异常:", e && e.message ? e.message.substring(0,60) : e);
   }
-  // 如果 GraphQL 数据更完整则覆盖
+  // 优先使用 GraphQL 数据
   if (graphqlData) {
-    const regex = /\{"id":"([^"]+)","rank":(\d+),/g;
-    const map = new Map();
-    let m;
+    var regex = /\{"id":"([^"]+)","rank":(\d+),/g;
+    var map = {};
+    var m;
     while ((m = regex.exec(graphqlData)) !== null) {
-      const rank = parseInt(m[2]);
-      if (!map.has(rank)) map.set(rank, m[1]);
+      var rank = parseInt(m[2]);
+      if (!map[rank]) map[rank] = m[1];
     }
-    const graphqlCids = [...map.entries()].sort((a, b) => a[0] - b[0]).map(e => e[1]);
+    var graphqlCids = Object.keys(map).sort(function(a,b){return a-b}).map(function(k){return map[k];});
     if (graphqlCids.length >= 50) {
       cids = graphqlCids;
-      console.log(`  GraphQL 覆盖, 共 ${cids.length} 个 CID`);
+      console.log('  GraphQL 提取到', cids.length, '个 CID');
+    } else {
+      console.log('  GraphQL 数据不足:', graphqlCids.length);
     }
   }
 
