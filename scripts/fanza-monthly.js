@@ -196,30 +196,18 @@ async function main() {
     }
 
     // 直接跳转到排名页 (用新页面避免 mylibrary 重定向)
-    var rankingPage = await context.newPage();
-    // 在新的 tab 上也拦截 GraphQL
-    rankingPage.on('response', async (response) => {
-      var url = response.url();
-      if (url.includes('api.video.dmm.co.jp/graphql')) {
-        try {
-          var text = await response.text();
-          if (text && text.includes('ppvContentRanking') && text.length > 50000) {
-            graphqlData = text;
-            console.log('  截获 GraphQL 排名数据, 大小:', text.length);
-          }
-        } catch {}
-      }
-    });
-    await rankingPage.goto(DMM_RANKING_URL, { waitUntil: 'domcontentloaded', timeout: 15000 }).catch(function(){});
-    await rankingPage.waitForTimeout(3000);
-    console.log('  排名页URL:', rankingPage.url().substring(0, 80));
-    
-    if (rankingPage.url().includes('term=') || rankingPage.url().includes('ranking')) {
-      page = rankingPage;
-    } else {
-      await rankingPage.close();
-      console.log('  排名页重定向, 用主页面重试...');
+    // 直接跳转到排名页 (拦截 mylibrary 重定向)
+    await page.goto(DMM_RANKING_URL, { waitUntil: 'domcontentloaded', timeout: 15000 }).catch(function(){});
+    await page.waitForTimeout(1000);
+    // 如果被重定向到 mylibrary，用 route 拦截
+    if (page.url().includes('mylibrary')) {
+      console.log('  mylibrary 重定向, 使用拦截...');
+      // 阻止所有 mylibrary 导航
+      await page.route('**/mylibrary/**', function(route) { route.abort(); });
       await page.goto(DMM_RANKING_URL, { waitUntil: 'domcontentloaded', timeout: 15000 }).catch(function(){});
+      await page.waitForTimeout(3000);
+      // 取消路由拦截
+      await page.unroute('**/mylibrary/**').catch(function(){});
     }
   } catch (e) {
     console.log('  页面处理异常:', e && e.message ? e.message.substring(0, 80) : e);
