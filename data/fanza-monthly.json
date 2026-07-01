@@ -1,1 +1,500 @@
-[]
+[
+  {
+    "rank": 1,
+    "cid": "HMN-673",
+    "javdbId": "Ebv7kA"
+  },
+  {
+    "rank": 2,
+    "cid": "CJOD-447",
+    "javdbId": "veeEWG"
+  },
+  {
+    "rank": 3,
+    "cid": "PPPE-296",
+    "javdbId": "1AeeQd"
+  },
+  {
+    "rank": 4,
+    "cid": "PBD-446",
+    "javdbId": "vD25OY"
+  },
+  {
+    "rank": 5,
+    "cid": "YAHO-41",
+    "javdbId": "xvvxDP"
+  },
+  {
+    "rank": 6,
+    "cid": "JUR-258",
+    "javdbId": "P9M2Ra"
+  },
+  {
+    "rank": 7,
+    "cid": "DASS-412",
+    "javdbId": "GZMx0q"
+  },
+  {
+    "rank": 8,
+    "cid": "SIVR-490",
+    "javdbId": "vezabn"
+  },
+  {
+    "rank": 9,
+    "cid": "MIZD-362",
+    "javdbId": "MmR7bQ"
+  },
+  {
+    "rank": 10,
+    "cid": "DASS-158",
+    "javdbId": "9DgrY8"
+  },
+  {
+    "rank": 11,
+    "cid": "MIDE-786",
+    "javdbId": "02Wqk"
+  },
+  {
+    "rank": 12,
+    "cid": "SONE-229",
+    "javdbId": "MbmRg1"
+  },
+  {
+    "rank": 13,
+    "cid": "EBWH-92",
+    "javdbId": "r3mYpr"
+  },
+  {
+    "rank": 14,
+    "cid": "SONE-258",
+    "javdbId": "qADVvP"
+  },
+  {
+    "rank": 15,
+    "cid": "FPRE-45",
+    "javdbId": "z4KVky"
+  },
+  {
+    "rank": 16,
+    "cid": "YAKO-73",
+    "javdbId": "QN0qnM"
+  },
+  {
+    "rank": 17,
+    "cid": "SONE-136",
+    "javdbId": "wKqYGD"
+  },
+  {
+    "rank": 18,
+    "cid": "HJMO-652",
+    "javdbId": "1ABDWZ"
+  },
+  {
+    "rank": 19,
+    "cid": "URE-109",
+    "javdbId": "AqzyBe"
+  },
+  {
+    "rank": 20,
+    "cid": "JUQ-682",
+    "javdbId": "AqzJNy"
+  },
+  {
+    "rank": 21,
+    "cid": "MIAB-157",
+    "javdbId": "1ABxAw"
+  },
+  {
+    "rank": 22,
+    "cid": "HNDB-127",
+    "javdbId": "AqZMy"
+  },
+  {
+    "rank": 23,
+    "cid": "FPRE-38",
+    "javdbId": "gy00Rm"
+  },
+  {
+    "rank": 24,
+    "cid": "CAWD-712",
+    "javdbId": "z4K7BJ"
+  },
+  {
+    "rank": 25,
+    "cid": "SNOS-248",
+    "javdbId": "pkzWw9"
+  },
+  {
+    "rank": 26,
+    "cid": "EBWH-81",
+    "javdbId": "J026y8"
+  },
+  {
+    "rank": 27,
+    "cid": "SNOS-209",
+    "javdbId": "AqVrm0"
+  },
+  {
+    "rank": 28,
+    "cid": "SKMJ-757",
+    "javdbId": "82BPRE"
+  },
+  {
+    "rank": 29,
+    "cid": "DVMM-246",
+    "javdbId": "deR7ga"
+  },
+  {
+    "rank": 30,
+    "cid": "SONE-720",
+    "javdbId": "deROGe"
+  },
+  {
+    "rank": 31,
+    "cid": "MSPK-1601"
+  },
+  {
+    "rank": 32,
+    "cid": "SNOS-275",
+    "javdbId": "ZN3nNq"
+  },
+  {
+    "rank": 33,
+    "cid": "OFJE-512",
+    "javdbId": "YwqX4e"
+  },
+  {
+    "rank": 34,
+    "cid": "SNOS-183",
+    "javdbId": "AqnZBM"
+  },
+  {
+    "rank": 35,
+    "cid": "SONE-162",
+    "javdbId": "96DYxR"
+  },
+  {
+    "rank": 36,
+    "cid": "NPJB-99",
+    "javdbId": "6ddJG9"
+  },
+  {
+    "rank": 37,
+    "cid": "ASTR-32",
+    "javdbId": "V4NJ8A"
+  },
+  {
+    "rank": 38,
+    "cid": "BLOR-289",
+    "javdbId": "e87Yyd"
+  },
+  {
+    "rank": 39,
+    "cid": "VRKM-1577",
+    "javdbId": "WwrJyq"
+  },
+  {
+    "rank": 40,
+    "cid": "SNOS-257",
+    "javdbId": "pkzmkq"
+  },
+  {
+    "rank": 41,
+    "cid": "MIZD-341",
+    "javdbId": "5EyMW9"
+  },
+  {
+    "rank": 42,
+    "cid": "PFES-58",
+    "javdbId": "5nEEvB"
+  },
+  {
+    "rank": 43,
+    "cid": "OFJE-517",
+    "javdbId": "RkG34n"
+  },
+  {
+    "rank": 44,
+    "cid": "SNOS-213",
+    "javdbId": "bK3JKB"
+  },
+  {
+    "rank": 45,
+    "cid": "SDMM-226",
+    "javdbId": "ZNx28X"
+  },
+  {
+    "rank": 46,
+    "cid": "SNOS-172",
+    "javdbId": "Rk6WVR"
+  },
+  {
+    "rank": 47,
+    "cid": "SONE-71",
+    "javdbId": "XWQq5"
+  },
+  {
+    "rank": 48,
+    "cid": "SAVR-1001",
+    "javdbId": "82ZndV"
+  },
+  {
+    "rank": 49,
+    "cid": "MIDA-139",
+    "javdbId": "AqE3EM"
+  },
+  {
+    "rank": 50,
+    "cid": "SDJS-374",
+    "javdbId": "Rk6R04"
+  },
+  {
+    "rank": 51,
+    "cid": "MNGS-71",
+    "javdbId": "pkz9Jb"
+  },
+  {
+    "rank": 52,
+    "cid": "HUNTB-731",
+    "javdbId": "Az6D8M"
+  },
+  {
+    "rank": 53,
+    "cid": "IPZZ-849",
+    "javdbId": "7ybd3B"
+  },
+  {
+    "rank": 54,
+    "cid": "SIVR-494",
+    "javdbId": "QN7DYJ"
+  },
+  {
+    "rank": 55,
+    "cid": "SONE-200",
+    "javdbId": "GZMEbD"
+  },
+  {
+    "rank": 56,
+    "cid": "SVVRT-75",
+    "javdbId": "0e4Mxv"
+  },
+  {
+    "rank": 57,
+    "cid": "SGKI-80",
+    "javdbId": "5nbD8z"
+  },
+  {
+    "rank": 58,
+    "cid": "MIZD-461",
+    "javdbId": "mOJbJY"
+  },
+  {
+    "rank": 59,
+    "cid": "SSIS-308",
+    "javdbId": "dXWVe"
+  },
+  {
+    "rank": 60,
+    "cid": "FAVR-4",
+    "javdbId": "JA1Q3"
+  },
+  {
+    "rank": 61,
+    "cid": "SONE-242",
+    "javdbId": "V4wJOW"
+  },
+  {
+    "rank": 62,
+    "cid": "NUKA-81",
+    "javdbId": "k6ZN"
+  },
+  {
+    "rank": 63,
+    "cid": "KKWZ-1",
+    "javdbId": "5nXWmD"
+  },
+  {
+    "rank": 64,
+    "cid": "IPZZ-722",
+    "javdbId": "verG0b"
+  },
+  {
+    "rank": 65,
+    "cid": "HRSM-87",
+    "javdbId": "r3OWXJ"
+  },
+  {
+    "rank": 66,
+    "cid": "OFES-32",
+    "javdbId": "AqV1yM"
+  },
+  {
+    "rank": 67,
+    "cid": "SIVR-492",
+    "javdbId": "Yw3XQb"
+  },
+  {
+    "rank": 68,
+    "cid": "SVVRT-72",
+    "javdbId": "Kkq7gb"
+  },
+  {
+    "rank": 69,
+    "cid": "JUVR-234",
+    "javdbId": "ZNd9bX"
+  },
+  {
+    "rank": 70,
+    "cid": "MBF-59",
+    "javdbId": "KkkxeM"
+  },
+  {
+    "rank": 71,
+    "cid": "TSDS-43094",
+    "javdbId": "deDW1M"
+  },
+  {
+    "rank": 72,
+    "cid": "DSVR-1947",
+    "javdbId": "2mXPKw"
+  },
+  {
+    "rank": 73,
+    "cid": "SONE-33",
+    "javdbId": "ne4Ea"
+  },
+  {
+    "rank": 74,
+    "cid": "SDDE-766",
+    "javdbId": "82BA89"
+  },
+  {
+    "rank": 75,
+    "cid": "1START00498V"
+  },
+  {
+    "rank": 76,
+    "cid": "EBWH-233",
+    "javdbId": "WwVVAg"
+  },
+  {
+    "rank": 77,
+    "cid": "IPZZ-766",
+    "javdbId": "BzPXX1"
+  },
+  {
+    "rank": 78,
+    "cid": "DVMM-406",
+    "javdbId": "OX7EbO"
+  },
+  {
+    "rank": 79,
+    "cid": "HUNTB-700",
+    "javdbId": "p3JxVb"
+  },
+  {
+    "rank": 80,
+    "cid": "DSVR-1933",
+    "javdbId": "96pBMV"
+  },
+  {
+    "rank": 81,
+    "cid": "MIDV-719",
+    "javdbId": "J02P0d"
+  },
+  {
+    "rank": 82,
+    "cid": "JUVR-296",
+    "javdbId": "DRP7RM"
+  },
+  {
+    "rank": 83,
+    "cid": "IPZZ-729",
+    "javdbId": "Wwk3NR"
+  },
+  {
+    "rank": 84,
+    "cid": "SODS-84",
+    "javdbId": "Zd9bq"
+  },
+  {
+    "rank": 85,
+    "cid": "SIVR-479",
+    "javdbId": "4D4Y93"
+  },
+  {
+    "rank": 86,
+    "cid": "SONE-208",
+    "javdbId": "Kk4dyO"
+  },
+  {
+    "rank": 87,
+    "cid": "SDMM-201",
+    "javdbId": "YwZwvp"
+  },
+  {
+    "rank": 88,
+    "cid": "SIVR-485",
+    "javdbId": "xAe81B"
+  },
+  {
+    "rank": 89,
+    "cid": "SNOS-233",
+    "javdbId": "P91MB9"
+  },
+  {
+    "rank": 90,
+    "cid": "OFJE-426",
+    "javdbId": "RdBkx4"
+  },
+  {
+    "rank": 91,
+    "cid": "KBTK-8",
+    "javdbId": "Bz4K44"
+  },
+  {
+    "rank": 92,
+    "cid": "MIDV-547",
+    "javdbId": "ZXVpbJ"
+  },
+  {
+    "rank": 93,
+    "cid": "BONY-178",
+    "javdbId": "0e4EaX"
+  },
+  {
+    "rank": 94,
+    "cid": "DVMM-337",
+    "javdbId": "ZNv6Q6"
+  },
+  {
+    "rank": 95,
+    "cid": "MURIKURI-10",
+    "javdbId": "xAe3V6"
+  },
+  {
+    "rank": 96,
+    "cid": "SONE-81",
+    "javdbId": "6AMD"
+  },
+  {
+    "rank": 97,
+    "cid": "SSIS-722",
+    "javdbId": "5Eyn6Y"
+  },
+  {
+    "rank": 98,
+    "cid": "SAVR-1018",
+    "javdbId": "z4VkX7"
+  },
+  {
+    "rank": 99,
+    "cid": "SDNM-537",
+    "javdbId": "RkXgpn"
+  },
+  {
+    "rank": 100,
+    "cid": "SQTE-683",
+    "javdbId": "GZPZED"
+  }
+]
