@@ -94,21 +94,16 @@ function guessProductCode(cid) {
   let s = cid.toLowerCase();
   // h_1133yako00073 → YAKO-073
   let m = s.match(/^h_\d+([a-z]+)(\d+)$/);
-  if (m) {
-    let prefix = m[1].toUpperCase();
-    let numStr = m[2];
-    let num = numStr.replace(/^0+/, '') || '0';
-    if (numStr.length > 3 && numStr.startsWith('00')) num = String(parseInt(numStr, 10));
-    return prefix + '-' + num.padStart(3, '0');
-  }
+  if (m) return m[1].toUpperCase() + '-' + String(parseInt(m[2], 10)).padStart(3, '0');
+  // 去掉纯数字前缀: 1start00498v → start00498v
   s = s.replace(/^\d+/, '');
-  m = s.match(/^([a-z]+?)(\d+)$/);
+  // start00498v → start, 00498, v
+  m = s.match(/^([a-z]+?)(\d+)([a-z]?)$/);
   if (m) {
     let prefix = m[1].toUpperCase();
-    let numStr = m[2];
-    let num = numStr.replace(/^0+/, '') || '0';
-    if (numStr.length > 3 && numStr.startsWith('00')) num = String(parseInt(numStr, 10));
-    return prefix + '-' + num.padStart(3, '0');
+    let num = String(parseInt(m[2], 10)).padStart(3, '0');
+    let suffix = m[3] ? m[3].toUpperCase() : '';
+    return prefix + '-' + num + suffix;
   }
   return cid.toUpperCase();
 }
