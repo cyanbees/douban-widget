@@ -264,6 +264,25 @@ async function main() {
   }
 
   if (cids.length === 0) {
+    // 调试: 直接获取页面 HTML 查找 CID
+    try {
+      var html = await page.content();
+      var htmlCids = html.match(/[?&]id=([a-z0-9_]+)/gi);
+      if (htmlCids) {
+        var uniqueCids = {};
+        htmlCids.forEach(function(h) {
+          var m = h.match(/id=([a-z0-9_]+)/i);
+          if (m) uniqueCids[m[1].toLowerCase()] = 1;
+        });
+        cids = Object.keys(uniqueCids);
+        console.log('  HTML 匹配到', cids.length, '个 CID');
+      }
+    } catch(e2) {
+      console.log('  HTML 提取失败:', e2.message.substring(0,60));
+    }
+  }
+
+  if (cids.length === 0) {
     try {
     cids = await page.evaluate(() => {
     const ids = new Set();
