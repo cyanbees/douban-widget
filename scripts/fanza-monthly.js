@@ -189,28 +189,51 @@ async function main() {
     console.log(`  页面提取到 ${cids.length} 个 CID`);
   }
 
-  await browser.close();
-
-  if (cids.length < 50) {
-    console.log('  ❌ 提取的 CID 太少:', cids.length);
-    process.exit(1);
-  }
-
-  // 转换 CID → 番号
-  console.log('3. 转换 CID → 番号...');
-  const seen = new Set();
+  // 3. 逐个访问详情页提取メーカー品番
+  console.log('3. 提取メーカー品番...');
   const results = [];
-  cids.forEach((cid, idx) => {
-    const code = guessProductCode(cid);
+  let rank = 0;
+  const seen = new Set();
+
+  for (const cid of cids.slice(0, 100)) {
+    let productCode = null;
+    try {
+      await page.goto(`https://video.dmm.co.jp/av/content/?id=${cid}`, {
+        waitUntil: 'domcontentloaded', timeout: 30000
+      });
+      await page.waitForTimeout(800);
+      // 从页面提取メーカー品番
+      productCode = await page.evaluate(() => {
+        const text = document.body.innerText;
+        const lines = text.split('\n');
+        for (let i = 0; i < lines.length; i++) {
+          if (lines[i].includes('メーカー品番')) {
+            const m = lines[i].match(/メーカー品番[：:]\s*(\S+)/);
+            if (m) return m[1];
+            const next = lines[i + 1]?.trim();
+            if (next && !next.includes('：') && !next.includes(':')) return next;
+          }
+        }
+        return null;
+      });
+    } catch (e) {
+      console.log(`  #${rank + 1} ${cid} 详情页失败:`, e.message.substring(0, 50));
+    }
+
+    // 详情页提取失败时用猜测
+    const code = productCode || guessProductCode(cid);
     if (!seen.has(code)) {
       seen.add(code);
-      results.push({ rank: results.length + 1, cid: code });
+      rank++;
+      results.push({ rank, cid: code });
+      if (rank % 20 === 0) console.log(`  ${rank}/${cids.length}: ${code}`);
     }
-  });
-  console.log(`  生成 ${results.length} 个番号 (去重后)`);
+  }
 
-  // JavDB 查询
-  console.log('4. 查询 JavDB ID...');
+  await browser.close();
+  console.log(`  提取到 ${results.length} 个番号`);
+
+  // 4. JavDB 查询
   let token = null;
   try { token = await javdbLogin(); } catch (e) { console.log('  JavDB 登录失败:', e.message); }
 
