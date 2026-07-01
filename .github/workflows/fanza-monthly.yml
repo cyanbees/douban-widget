@@ -17,13 +17,7 @@ jobs:
           node-version: 24
 
       - name: 安装依赖
-        run: |
-          npm init -y
-          npm install playwright libsodium-wrappers
-
-      - name: 安装 Playwright 浏览器 + 系统依赖
-        run: |
-          npx playwright install --with-deps chromium
+        run: npm install
 
       - name: 爬取 FANZA 月度榜单
         run: node scripts/fanza-monthly.js
