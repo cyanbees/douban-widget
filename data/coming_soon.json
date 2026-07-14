@@ -1,8 +1,8 @@
 {
   "doulistId": "coming_soon",
   "title": "即将上映",
-  "updatedAt": "2026-07-13T02:23:54.628Z",
-  "count": 18,
+  "updatedAt": "2026-07-14T02:03:33.352Z",
+  "count": 19,
   "items": [
     {
       "doubanId": 3011051,
@@ -11,7 +11,7 @@
       "releaseDate": "2026-07-17",
       "genres": "科幻 / 悬疑 / 奇幻",
       "region": "英国 / 澳大利亚",
-      "wishCount": 219919,
+      "wishCount": 220208,
       "posterPath": "https://image.tmdb.org/t/p/w500/JPF79YnhjuVP545OLYli4w6gq1.jpg"
     },
     {
@@ -21,7 +21,7 @@
       "releaseDate": "2026-07-17",
       "genres": "剧情",
       "region": "中国大陆",
-      "wishCount": 1932,
+      "wishCount": 2045,
       "posterPath": "https://image.tmdb.org/t/p/w500/64yW6hfYE863s5KZVaMFiP0sbWb.jpg"
     },
     {
@@ -31,8 +31,18 @@
       "releaseDate": "2026-07-18",
       "genres": "剧情",
       "region": "英国",
-      "wishCount": 18528,
+      "wishCount": 18747,
       "posterPath": "https://image.tmdb.org/t/p/w500/7cBh6fWchOJY961A8F1rT98HDdA.jpg"
+    },
+    {
+      "doubanId": 37450627,
+      "tmdbId": 1339713,
+      "title": "痴迷",
+      "releaseDate": "2026-07-24",
+      "genres": "恐怖",
+      "region": "美国",
+      "wishCount": 64564,
+      "posterPath": "https://image.tmdb.org/t/p/w500/5kNrhOgyREvm62H0rG1tuSrzirR.jpg"
     },
     {
       "doubanId": 36882191,
@@ -41,7 +51,7 @@
       "releaseDate": "2026-07-24",
       "genres": "喜剧 / 动画 / 奇幻",
       "region": "中国大陆",
-      "wishCount": 6377,
+      "wishCount": 8466,
       "posterPath": "https://image.tmdb.org/t/p/w500/aXnmhBIdgZNxlJZDHIqkRwxHsGi.jpg"
     },
     {
@@ -61,7 +71,7 @@
       "releaseDate": "2026-07-29",
       "genres": "动作 / 科幻 / 奇幻",
       "region": "美国",
-      "wishCount": 44449,
+      "wishCount": 44999,
       "posterPath": "https://image.tmdb.org/t/p/w500/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg"
     },
     {
@@ -71,7 +81,7 @@
       "releaseDate": "2026-08-01",
       "genres": "剧情 / 科幻",
       "region": "中国大陆",
-      "wishCount": 6656,
+      "wishCount": 7397,
       "posterPath": "https://image.tmdb.org/t/p/w500/gYsNMAx46IwYtNdeIm4XM6xWZ52.jpg"
     },
     {
@@ -81,7 +91,7 @@
       "releaseDate": "2026-08-07",
       "genres": "动作 / 犯罪",
       "region": "美国",
-      "wishCount": 61206,
+      "wishCount": 61527,
       "posterPath": "https://image.tmdb.org/t/p/w500/lmmtfbvRPPnBJc9lXU1PgfRoElh.jpg"
     },
     {
@@ -91,7 +101,7 @@
       "releaseDate": "2026-08-07",
       "genres": "喜剧",
       "region": "中国大陆",
-      "wishCount": 14024,
+      "wishCount": 14325,
       "posterPath": "https://image.tmdb.org/t/p/w500/pdbAvZcPoB293uzACGBXtAkdYz2.jpg"
     },
     {
@@ -101,7 +111,7 @@
       "releaseDate": "2026-08-08",
       "genres": "喜剧 / 动画 / 悬疑",
       "region": "中国大陆",
-      "wishCount": 2418,
+      "wishCount": 2489,
       "posterPath": "https://image.tmdb.org/t/p/w500/pMr7CamEiowr4Agoza4LA6CX0qe.jpg"
     },
     {
@@ -111,7 +121,7 @@
       "releaseDate": "2026-08-08",
       "genres": "喜剧 / 科幻 / 动画",
       "region": "加拿大 / 美国",
-      "wishCount": 637,
+      "wishCount": 653,
       "posterPath": "https://image.tmdb.org/t/p/w500/v5eNuyj8lj6YYrPBxQfebn7yI1v.jpg"
     },
     {
@@ -121,7 +131,7 @@
       "releaseDate": "2026-08-14",
       "genres": "动作 / 历史 / 奇幻",
       "region": "美国 / 英国",
-      "wishCount": 94307,
+      "wishCount": 95314,
       "posterPath": "https://image.tmdb.org/t/p/w500/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg"
     },
     {
@@ -131,7 +141,7 @@
       "releaseDate": "2026-08-14",
       "genres": "动作 / 科幻 / 惊悚",
       "region": "美国",
-      "wishCount": 14617,
+      "wishCount": 14798,
       "posterPath": "https://image.tmdb.org/t/p/w500/a3rWaD4nbPlJ6kSOMO26j8fKS8a.jpg"
     },
     {
@@ -141,18 +151,8 @@
       "releaseDate": "2026-08-19",
       "genres": "爱情 / 动画 / 奇幻",
       "region": "中国大陆",
-      "wishCount": 2537,
+      "wishCount": 2582,
       "posterPath": "https://image.tmdb.org/t/p/w500/jLqc84CFitC4VHJmFfZlvBuUPKK.jpg"
-    },
-    {
-      "doubanId": 35390242,
-      "tmdbId": 1716541,
-      "title": "我想留在你身边",
-      "releaseDate": "2026-08-19",
-      "genres": "爱情 / 奇幻",
-      "region": "中国大陆",
-      "wishCount": 544,
-      "posterPath": "https://image.tmdb.org/t/p/w500/g3vAs00Nw3kxzBP0g9Q9pmsV7hj.jpg"
     },
     {
       "doubanId": 37452950,
@@ -161,8 +161,18 @@
       "releaseDate": "2026-08-19",
       "genres": "剧情 / 爱情",
       "region": "中国大陆",
-      "wishCount": 540,
+      "wishCount": 545,
       "posterPath": "https://image.tmdb.org/t/p/w500/eT0danpvSg5uAoJMoXgwG7yvJza.jpg"
+    },
+    {
+      "doubanId": 35390242,
+      "tmdbId": 1716541,
+      "title": "我想留在你身边",
+      "releaseDate": "2026-08-19",
+      "genres": "爱情 / 奇幻",
+      "region": "中国大陆",
+      "wishCount": 545,
+      "posterPath": "https://image.tmdb.org/t/p/w500/g3vAs00Nw3kxzBP0g9Q9pmsV7hj.jpg"
     },
     {
       "doubanId": 35209727,
@@ -171,7 +181,7 @@
       "releaseDate": "2026-08-28",
       "genres": "剧情 / 悬疑",
       "region": "中国大陆",
-      "wishCount": 623,
+      "wishCount": 627,
       "posterPath": "https://image.tmdb.org/t/p/w500/gJpGtOq2fGwYDvsk5seQR7DAKBy.jpg"
     },
     {
@@ -181,7 +191,7 @@
       "releaseDate": "2027-02-06",
       "genres": "科幻 / 冒险 / 灾难",
       "region": "中国大陆",
-      "wishCount": 97186,
+      "wishCount": 97256,
       "posterPath": "https://image.tmdb.org/t/p/w500/7pNAki9AIaJGhNFOs8ePTFI0lDc.jpg"
     }
   ]
