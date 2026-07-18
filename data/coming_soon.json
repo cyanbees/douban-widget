@@ -1,29 +1,9 @@
 {
   "doulistId": "coming_soon",
   "title": "即将上映",
-  "updatedAt": "2026-07-17T02:13:09.162Z",
-  "count": 17,
+  "updatedAt": "2026-07-18T02:02:54.261Z",
+  "count": 18,
   "items": [
-    {
-      "doubanId": 26588017,
-      "tmdbId": 843342,
-      "title": "哈姆雷特",
-      "releaseDate": "2026-07-18",
-      "genres": "剧情",
-      "region": "英国",
-      "wishCount": 19406,
-      "posterPath": "https://image.tmdb.org/t/p/w500/7cBh6fWchOJY961A8F1rT98HDdA.jpg"
-    },
-    {
-      "doubanId": 36882191,
-      "tmdbId": 1633056,
-      "title": "八仙！",
-      "releaseDate": "2026-07-18",
-      "genres": "喜剧 / 动画 / 奇幻",
-      "region": "中国大陆",
-      "wishCount": 15018,
-      "posterPath": "https://image.tmdb.org/t/p/w500/w7NfZCUnLFmM8n4r2ndi0WJ5oBF.jpg"
-    },
     {
       "doubanId": 37450627,
       "tmdbId": 1339713,
@@ -31,7 +11,7 @@
       "releaseDate": "2026-07-24",
       "genres": "恐怖",
       "region": "美国",
-      "wishCount": 68248,
+      "wishCount": 69746,
       "posterPath": "https://image.tmdb.org/t/p/w500/5kNrhOgyREvm62H0rG1tuSrzirR.jpg"
     },
     {
@@ -51,7 +31,7 @@
       "releaseDate": "2026-07-29",
       "genres": "动作 / 科幻 / 奇幻",
       "region": "美国",
-      "wishCount": 46665,
+      "wishCount": 47316,
       "posterPath": "https://image.tmdb.org/t/p/w500/9zFVOpQ0QSg0pOHQdFtNj7NDamp.jpg"
     },
     {
@@ -61,8 +41,18 @@
       "releaseDate": "2026-08-01",
       "genres": "剧情 / 科幻",
       "region": "中国大陆",
-      "wishCount": 9505,
+      "wishCount": 10197,
       "posterPath": "https://image.tmdb.org/t/p/w500/bIW36DKMEePdqpPeF6GlmtRaMiN.jpg"
+    },
+    {
+      "doubanId": 1292052,
+      "tmdbId": 278,
+      "title": "肖申克的救赎",
+      "releaseDate": "2026-08-01",
+      "genres": "犯罪 / 剧情",
+      "region": "美国",
+      "wishCount": 515861,
+      "posterPath": "https://image.tmdb.org/t/p/w500/Aqo8yM5S5ZEdlcyeBBxj7s0vkTf.jpg"
     },
     {
       "doubanId": 10756537,
@@ -71,7 +61,7 @@
       "releaseDate": "2026-08-07",
       "genres": "动作 / 犯罪",
       "region": "美国",
-      "wishCount": 62350,
+      "wishCount": 62685,
       "posterPath": "https://image.tmdb.org/t/p/w500/lmmtfbvRPPnBJc9lXU1PgfRoElh.jpg"
     },
     {
@@ -81,7 +71,7 @@
       "releaseDate": "2026-08-07",
       "genres": "喜剧",
       "region": "中国大陆",
-      "wishCount": 15140,
+      "wishCount": 15414,
       "posterPath": "https://image.tmdb.org/t/p/w500/pdbAvZcPoB293uzACGBXtAkdYz2.jpg"
     },
     {
@@ -91,7 +81,7 @@
       "releaseDate": "2026-08-08",
       "genres": "喜剧 / 动画 / 悬疑",
       "region": "中国大陆",
-      "wishCount": 2667,
+      "wishCount": 2716,
       "posterPath": "https://image.tmdb.org/t/p/w500/pMr7CamEiowr4Agoza4LA6CX0qe.jpg"
     },
     {
@@ -101,7 +91,7 @@
       "releaseDate": "2026-08-08",
       "genres": "喜剧 / 科幻 / 动画",
       "region": "加拿大 / 美国",
-      "wishCount": 709,
+      "wishCount": 715,
       "posterPath": "https://image.tmdb.org/t/p/w500/v5eNuyj8lj6YYrPBxQfebn7yI1v.jpg"
     },
     {
@@ -111,7 +101,7 @@
       "releaseDate": "2026-08-14",
       "genres": "动作 / 历史 / 奇幻",
       "region": "美国 / 英国",
-      "wishCount": 102120,
+      "wishCount": 106173,
       "posterPath": "https://image.tmdb.org/t/p/w500/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg"
     },
     {
@@ -121,8 +111,18 @@
       "releaseDate": "2026-08-14",
       "genres": "动作 / 科幻 / 惊悚",
       "region": "美国",
-      "wishCount": 15259,
+      "wishCount": 15477,
       "posterPath": "https://image.tmdb.org/t/p/w500/a3rWaD4nbPlJ6kSOMO26j8fKS8a.jpg"
+    },
+    {
+      "doubanId": 35603727,
+      "tmdbId": 823219,
+      "title": "猫猫的奇幻漂流",
+      "releaseDate": "2026-08-15",
+      "genres": "动画 / 奇幻 / 冒险",
+      "region": "拉脱维亚 / 法国",
+      "wishCount": 132110,
+      "posterPath": "https://image.tmdb.org/t/p/w500/tn89woD33WgLgT7ZMUr1r47hnql.jpg"
     },
     {
       "doubanId": 35275131,
@@ -131,7 +131,7 @@
       "releaseDate": "2026-08-19",
       "genres": "爱情 / 动画 / 奇幻",
       "region": "中国大陆",
-      "wishCount": 2747,
+      "wishCount": 2817,
       "posterPath": "https://image.tmdb.org/t/p/w500/jLqc84CFitC4VHJmFfZlvBuUPKK.jpg"
     },
     {
@@ -141,7 +141,7 @@
       "releaseDate": "2026-08-19",
       "genres": "爱情 / 奇幻",
       "region": "中国大陆",
-      "wishCount": 568,
+      "wishCount": 572,
       "posterPath": "https://image.tmdb.org/t/p/w500/g3vAs00Nw3kxzBP0g9Q9pmsV7hj.jpg"
     },
     {
@@ -151,7 +151,7 @@
       "releaseDate": "2026-08-19",
       "genres": "剧情 / 爱情",
       "region": "中国大陆",
-      "wishCount": 564,
+      "wishCount": 569,
       "posterPath": "https://image.tmdb.org/t/p/w500/eT0danpvSg5uAoJMoXgwG7yvJza.jpg"
     },
     {
@@ -161,8 +161,18 @@
       "releaseDate": "2026-08-28",
       "genres": "剧情 / 悬疑",
       "region": "中国大陆",
-      "wishCount": 646,
+      "wishCount": 657,
       "posterPath": "https://image.tmdb.org/t/p/w500/gJpGtOq2fGwYDvsk5seQR7DAKBy.jpg"
+    },
+    {
+      "doubanId": 36464801,
+      "tmdbId": 1732799,
+      "title": "象行记",
+      "releaseDate": "2026-10-23",
+      "genres": "纪录片",
+      "region": "中国大陆 / 新加坡",
+      "wishCount": 131,
+      "posterPath": "https://image.tmdb.org/t/p/w500/frLlMYq98hKOxtAF8MOu6jU6PYq.jpg"
     },
     {
       "doubanId": 36212391,
@@ -171,7 +181,7 @@
       "releaseDate": "2027-02-06",
       "genres": "科幻 / 冒险 / 灾难",
       "region": "中国大陆",
-      "wishCount": 97468,
+      "wishCount": 97527,
       "posterPath": "https://image.tmdb.org/t/p/w500/7pNAki9AIaJGhNFOs8ePTFI0lDc.jpg"
     }
   ]
