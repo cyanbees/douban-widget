@@ -1,28 +1,18 @@
 {
   "doulistId": "coming_soon",
   "title": "即将上映",
-  "updatedAt": "2026-07-31T02:24:43.598Z",
-  "count": 14,
+  "updatedAt": "2026-08-01T02:26:02.579Z",
+  "count": 15,
   "items": [
     {
-      "doubanId": 36850814,
-      "tmdbId": 1541125,
-      "title": "年会不能停2！",
-      "releaseDate": "2026-08-01",
-      "genres": "喜剧",
-      "region": "中国大陆",
-      "wishCount": 24884,
-      "posterPath": "https://image.tmdb.org/t/p/w500/y5oPzKYE2tEoySlN4Bd6ZBP78QU.jpg"
-    },
-    {
-      "doubanId": 10756537,
-      "tmdbId": 414419,
-      "title": "杀死比尔：血色全传",
+      "doubanId": 35201478,
+      "tmdbId": 1389241,
+      "title": "冬旅人",
       "releaseDate": "2026-08-07",
-      "genres": "动作 / 犯罪",
-      "region": "美国",
-      "wishCount": 65938,
-      "posterPath": "https://image.tmdb.org/t/p/w500/lmmtfbvRPPnBJc9lXU1PgfRoElh.jpg"
+      "genres": "剧情 / 家庭",
+      "region": "中国大陆",
+      "wishCount": 778,
+      "posterPath": "https://image.tmdb.org/t/p/w500/8dICppTg0i3bn26s63ttgCh9VgF.jpg"
     },
     {
       "doubanId": 35464353,
@@ -31,7 +21,7 @@
       "releaseDate": "2026-08-08",
       "genres": "喜剧 / 动画 / 悬疑",
       "region": "中国大陆",
-      "wishCount": 3547,
+      "wishCount": 3600,
       "posterPath": "https://image.tmdb.org/t/p/w500/pMr7CamEiowr4Agoza4LA6CX0qe.jpg"
     },
     {
@@ -41,7 +31,7 @@
       "releaseDate": "2026-08-08",
       "genres": "喜剧 / 科幻 / 动画",
       "region": "加拿大 / 美国",
-      "wishCount": 965,
+      "wishCount": 979,
       "posterPath": "https://image.tmdb.org/t/p/w500/v5eNuyj8lj6YYrPBxQfebn7yI1v.jpg"
     },
     {
@@ -51,7 +41,7 @@
       "releaseDate": "2026-08-14",
       "genres": "动作 / 历史 / 奇幻",
       "region": "美国 / 英国",
-      "wishCount": 151976,
+      "wishCount": 154691,
       "posterPath": "https://image.tmdb.org/t/p/w500/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg"
     },
     {
@@ -61,7 +51,7 @@
       "releaseDate": "2026-08-14",
       "genres": "动作 / 科幻 / 惊悚",
       "region": "美国",
-      "wishCount": 18620,
+      "wishCount": 18846,
       "posterPath": "https://image.tmdb.org/t/p/w500/6KUTteWdUlPhmql4LBgTDaBnrrV.jpg"
     },
     {
@@ -71,7 +61,7 @@
       "releaseDate": "2026-08-15",
       "genres": "动画 / 奇幻 / 冒险",
       "region": "拉脱维亚 / 法国",
-      "wishCount": 133658,
+      "wishCount": 133825,
       "posterPath": "https://image.tmdb.org/t/p/w500/tn89woD33WgLgT7ZMUr1r47hnql.jpg"
     },
     {
@@ -81,18 +71,18 @@
       "releaseDate": "2026-08-19",
       "genres": "爱情 / 动画 / 奇幻",
       "region": "中国大陆",
-      "wishCount": 3466,
+      "wishCount": 3546,
       "posterPath": "https://image.tmdb.org/t/p/w500/jLqc84CFitC4VHJmFfZlvBuUPKK.jpg"
     },
     {
-      "doubanId": 37452950,
-      "tmdbId": 1609560,
-      "title": "偷偷藏不住",
+      "doubanId": 36994226,
+      "tmdbId": 1414620,
+      "title": "偷偷喜欢你",
       "releaseDate": "2026-08-19",
       "genres": "剧情 / 爱情",
-      "region": "中国大陆",
-      "wishCount": 651,
-      "posterPath": "https://image.tmdb.org/t/p/w500/eT0danpvSg5uAoJMoXgwG7yvJza.jpg"
+      "region": "中国台湾",
+      "wishCount": 697,
+      "posterPath": "https://image.tmdb.org/t/p/w500/7y08LS88YTivaUMmM2uLPjhsqeI.jpg"
     },
     {
       "doubanId": 35390242,
@@ -101,8 +91,18 @@
       "releaseDate": "2026-08-19",
       "genres": "爱情 / 奇幻",
       "region": "中国大陆",
-      "wishCount": 650,
+      "wishCount": 660,
       "posterPath": "https://image.tmdb.org/t/p/w500/g3vAs00Nw3kxzBP0g9Q9pmsV7hj.jpg"
+    },
+    {
+      "doubanId": 37452950,
+      "tmdbId": 1609560,
+      "title": "偷偷藏不住",
+      "releaseDate": "2026-08-19",
+      "genres": "剧情 / 爱情",
+      "region": "中国大陆",
+      "wishCount": 653,
+      "posterPath": "https://image.tmdb.org/t/p/w500/eT0danpvSg5uAoJMoXgwG7yvJza.jpg"
     },
     {
       "doubanId": 36889088,
@@ -111,7 +111,7 @@
       "releaseDate": "2026-08-21",
       "genres": "动作 / 犯罪 / 惊悚",
       "region": "英国 / 美国",
-      "wishCount": 3079,
+      "wishCount": 3125,
       "posterPath": "https://image.tmdb.org/t/p/w500/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg"
     },
     {
@@ -121,8 +121,18 @@
       "releaseDate": "2026-08-28",
       "genres": "剧情 / 悬疑",
       "region": "中国大陆",
-      "wishCount": 786,
+      "wishCount": 798,
       "posterPath": "https://image.tmdb.org/t/p/w500/gJpGtOq2fGwYDvsk5seQR7DAKBy.jpg"
+    },
+    {
+      "doubanId": 10756537,
+      "tmdbId": 414419,
+      "title": "杀死比尔：血色全传",
+      "releaseDate": "2026-09-04",
+      "genres": "动作 / 犯罪",
+      "region": "美国",
+      "wishCount": 66226,
+      "posterPath": "https://image.tmdb.org/t/p/w500/lmmtfbvRPPnBJc9lXU1PgfRoElh.jpg"
     },
     {
       "doubanId": 36464801,
@@ -131,7 +141,7 @@
       "releaseDate": "2026-10-23",
       "genres": "纪录片",
       "region": "中国大陆 / 新加坡",
-      "wishCount": 413,
+      "wishCount": 426,
       "posterPath": "https://image.tmdb.org/t/p/w500/frLlMYq98hKOxtAF8MOu6jU6PYq.jpg"
     },
     {
@@ -141,7 +151,7 @@
       "releaseDate": "2027-02-06",
       "genres": "科幻 / 冒险 / 灾难",
       "region": "中国大陆",
-      "wishCount": 98627,
+      "wishCount": 98678,
       "posterPath": "https://image.tmdb.org/t/p/w500/7pNAki9AIaJGhNFOs8ePTFI0lDc.jpg"
     }
   ]
