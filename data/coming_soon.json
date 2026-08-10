@@ -1,7 +1,7 @@
 {
   "doulistId": "coming_soon",
   "title": "即将上映",
-  "updatedAt": "2026-08-09T01:19:31.753Z",
+  "updatedAt": "2026-08-10T01:21:09.481Z",
   "count": 15,
   "items": [
     {
@@ -9,9 +9,9 @@
       "tmdbId": 1391021,
       "title": "欢迎来龙餐馆",
       "releaseDate": "2026-08-11",
-      "genres": "剧情 / 喜剧 / 战争",
+      "genres": "剧情 / 战争",
       "region": "中国大陆",
-      "wishCount": 20287,
+      "wishCount": 30620,
       "posterPath": "https://image.tmdb.org/t/p/w500/blpRVNJ9iHtobHOi6rIkQzSWlWv.jpg"
     },
     {
@@ -21,7 +21,7 @@
       "releaseDate": "2026-08-14",
       "genres": "动作 / 历史 / 奇幻",
       "region": "美国 / 英国",
-      "wishCount": 173692,
+      "wishCount": 173634,
       "posterPath": "https://image.tmdb.org/t/p/w500/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg"
     },
     {
@@ -31,7 +31,7 @@
       "releaseDate": "2026-08-14",
       "genres": "动作 / 科幻 / 惊悚",
       "region": "美国",
-      "wishCount": 21093,
+      "wishCount": 21502,
       "posterPath": "https://image.tmdb.org/t/p/w500/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg"
     },
     {
@@ -41,7 +41,7 @@
       "releaseDate": "2026-08-17",
       "genres": "儿童 / 喜剧",
       "region": "中国大陆",
-      "wishCount": 27,
+      "wishCount": 48,
       "posterPath": "https://image.tmdb.org/t/p/w500/LKfeiBtdrcrldPVbFqmHOVpPqp.jpg"
     },
     {
@@ -51,7 +51,7 @@
       "releaseDate": "2026-08-19",
       "genres": "科幻 / 动画 / 冒险",
       "region": "美国",
-      "wishCount": 390677,
+      "wishCount": 390876,
       "posterPath": "https://image.tmdb.org/t/p/w500/eVcHArmmMXajXaqVBH4dhUWfwmS.jpg"
     },
     {
@@ -61,7 +61,7 @@
       "releaseDate": "2026-08-19",
       "genres": "剧情 / 爱情",
       "region": "中国大陆",
-      "wishCount": 1007,
+      "wishCount": 1013,
       "posterPath": "https://image.tmdb.org/t/p/w500/sEToT1BczP1hmVEkpHS1vURtNVn.jpg"
     },
     {
@@ -71,7 +71,7 @@
       "releaseDate": "2026-08-19",
       "genres": "剧情 / 爱情",
       "region": "中国台湾",
-      "wishCount": 763,
+      "wishCount": 773,
       "posterPath": "https://image.tmdb.org/t/p/w500/7y08LS88YTivaUMmM2uLPjhsqeI.jpg"
     },
     {
@@ -81,7 +81,7 @@
       "releaseDate": "2026-08-19",
       "genres": "爱情 / 奇幻",
       "region": "中国大陆",
-      "wishCount": 750,
+      "wishCount": 765,
       "posterPath": "https://image.tmdb.org/t/p/w500/g3vAs00Nw3kxzBP0g9Q9pmsV7hj.jpg"
     },
     {
@@ -91,7 +91,7 @@
       "releaseDate": "2026-08-19",
       "genres": "剧情 / 爱情",
       "region": "中国大陆",
-      "wishCount": 700,
+      "wishCount": 709,
       "posterPath": "https://image.tmdb.org/t/p/w500/eT0danpvSg5uAoJMoXgwG7yvJza.jpg"
     },
     {
@@ -101,7 +101,7 @@
       "releaseDate": "2026-08-21",
       "genres": "动作 / 犯罪 / 惊悚",
       "region": "英国 / 美国",
-      "wishCount": 3579,
+      "wishCount": 3646,
       "posterPath": "https://image.tmdb.org/t/p/w500/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg"
     },
     {
@@ -111,7 +111,7 @@
       "releaseDate": "2026-08-22",
       "genres": "喜剧 / 动画 / 悬疑",
       "region": "中国大陆",
-      "wishCount": 4241,
+      "wishCount": 4277,
       "posterPath": "https://image.tmdb.org/t/p/w500/pMr7CamEiowr4Agoza4LA6CX0qe.jpg"
     },
     {
@@ -121,7 +121,7 @@
       "releaseDate": "2026-08-28",
       "genres": "剧情 / 悬疑",
       "region": "中国大陆",
-      "wishCount": 966,
+      "wishCount": 1011,
       "posterPath": "https://image.tmdb.org/t/p/w500/gJpGtOq2fGwYDvsk5seQR7DAKBy.jpg"
     },
     {
@@ -131,7 +131,7 @@
       "releaseDate": "2026-09-04",
       "genres": "动作 / 犯罪",
       "region": "美国",
-      "wishCount": 67869,
+      "wishCount": 67912,
       "posterPath": "https://image.tmdb.org/t/p/w500/lmmtfbvRPPnBJc9lXU1PgfRoElh.jpg"
     },
     {
@@ -141,7 +141,7 @@
       "releaseDate": "2026-10-23",
       "genres": "纪录片",
       "region": "中国大陆 / 新加坡",
-      "wishCount": 546,
+      "wishCount": 580,
       "posterPath": "https://image.tmdb.org/t/p/w500/frLlMYq98hKOxtAF8MOu6jU6PYq.jpg"
     },
     {
@@ -151,7 +151,7 @@
       "releaseDate": "2027-02-06",
       "genres": "科幻 / 冒险 / 灾难",
       "region": "中国大陆",
-      "wishCount": 99188,
+      "wishCount": 99277,
       "posterPath": "https://image.tmdb.org/t/p/w500/7pNAki9AIaJGhNFOs8ePTFI0lDc.jpg"
     }
   ]
