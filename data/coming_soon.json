@@ -1,7 +1,188 @@
 {
   "doulistId": "coming_soon",
   "title": "即将上映",
-  "updatedAt": "2026-08-12T01:27:31.586Z",
-  "count": 0,
-  "items": []
+  "updatedAt": "2026-08-13T01:29:17.273Z",
+  "count": 18,
+  "items": [
+    {
+      "doubanId": 36808876,
+      "tmdbId": 1368337,
+      "title": "奥德赛",
+      "releaseDate": "2026-08-14",
+      "genres": "动作 / 历史 / 奇幻",
+      "region": "美国 / 英国",
+      "wishCount": 182666,
+      "posterPath": "https://image.tmdb.org/t/p/w500/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg"
+    },
+    {
+      "doubanId": 36318703,
+      "tmdbId": 1101383,
+      "title": "逃出绝命街",
+      "releaseDate": "2026-08-14",
+      "genres": "动作 / 科幻 / 惊悚",
+      "region": "美国",
+      "wishCount": 22440,
+      "posterPath": "https://image.tmdb.org/t/p/w500/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg"
+    },
+    {
+      "doubanId": 37248641,
+      "tmdbId": 1745822,
+      "title": "最小的大片",
+      "releaseDate": "2026-08-17",
+      "genres": "儿童 / 喜剧",
+      "region": "中国大陆",
+      "wishCount": 105,
+      "posterPath": "https://image.tmdb.org/t/p/w500/LKfeiBtdrcrldPVbFqmHOVpPqp.jpg"
+    },
+    {
+      "doubanId": 2131459,
+      "tmdbId": 10681,
+      "title": "机器人总动员",
+      "releaseDate": "2026-08-19",
+      "genres": "科幻 / 动画 / 冒险",
+      "region": "美国",
+      "wishCount": 391407,
+      "posterPath": "https://image.tmdb.org/t/p/w500/eVcHArmmMXajXaqVBH4dhUWfwmS.jpg"
+    },
+    {
+      "doubanId": 36779597,
+      "tmdbId": 1563614,
+      "title": "不想失去你",
+      "releaseDate": "2026-08-19",
+      "genres": "剧情 / 爱情",
+      "region": "中国大陆",
+      "wishCount": 1060,
+      "posterPath": "https://image.tmdb.org/t/p/w500/sEToT1BczP1hmVEkpHS1vURtNVn.jpg"
+    },
+    {
+      "doubanId": 35317825,
+      "tmdbId": 1148213,
+      "title": "喜欢高兴爱",
+      "releaseDate": "2026-08-19",
+      "genres": "剧情 / 爱情",
+      "region": "中国大陆",
+      "wishCount": 823,
+      "posterPath": "https://image.tmdb.org/t/p/w500/9aW7ypxLFKpzIaabdn7E9fPOj1e.jpg"
+    },
+    {
+      "doubanId": 36994226,
+      "tmdbId": 1414620,
+      "title": "偷偷喜欢你",
+      "releaseDate": "2026-08-19",
+      "genres": "剧情 / 爱情",
+      "region": "中国台湾",
+      "wishCount": 802,
+      "posterPath": "https://image.tmdb.org/t/p/w500/7y08LS88YTivaUMmM2uLPjhsqeI.jpg"
+    },
+    {
+      "doubanId": 35390242,
+      "tmdbId": 1716541,
+      "title": "我想留在你身边",
+      "releaseDate": "2026-08-19",
+      "genres": "爱情 / 奇幻",
+      "region": "中国大陆",
+      "wishCount": 795,
+      "posterPath": "https://image.tmdb.org/t/p/w500/g3vAs00Nw3kxzBP0g9Q9pmsV7hj.jpg"
+    },
+    {
+      "doubanId": 36889088,
+      "tmdbId": 1288445,
+      "title": "怒之杀",
+      "releaseDate": "2026-08-21",
+      "genres": "动作 / 犯罪 / 惊悚",
+      "region": "英国 / 美国",
+      "wishCount": 3838,
+      "posterPath": "https://image.tmdb.org/t/p/w500/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg"
+    },
+    {
+      "doubanId": 35464353,
+      "tmdbId": 1630030,
+      "title": "大唐妖探",
+      "releaseDate": "2026-08-22",
+      "genres": "喜剧 / 动画 / 悬疑",
+      "region": "中国大陆",
+      "wishCount": 4383,
+      "posterPath": "https://image.tmdb.org/t/p/w500/pMr7CamEiowr4Agoza4LA6CX0qe.jpg"
+    },
+    {
+      "doubanId": 1292052,
+      "tmdbId": 278,
+      "title": "肖申克的救赎",
+      "releaseDate": "2026-08-28",
+      "genres": "犯罪 / 剧情",
+      "region": "美国",
+      "wishCount": 517773,
+      "posterPath": "https://image.tmdb.org/t/p/w500/Aqo8yM5S5ZEdlcyeBBxj7s0vkTf.jpg"
+    },
+    {
+      "doubanId": 35209727,
+      "tmdbId": 1502135,
+      "title": "密档",
+      "releaseDate": "2026-08-28",
+      "genres": "剧情 / 悬疑",
+      "region": "中国大陆",
+      "wishCount": 1094,
+      "posterPath": "https://image.tmdb.org/t/p/w500/gJpGtOq2fGwYDvsk5seQR7DAKBy.jpg"
+    },
+    {
+      "doubanId": 26100958,
+      "tmdbId": 299534,
+      "title": "复仇者联盟4：终局之战",
+      "releaseDate": "2026-09-01",
+      "genres": "剧情 / 动作 / 科幻",
+      "region": "美国",
+      "wishCount": 202061,
+      "posterPath": "https://image.tmdb.org/t/p/w500/wXyZYO6BKDh8Evf80DF80VzKcz3.jpg"
+    },
+    {
+      "doubanId": 10756537,
+      "tmdbId": 414419,
+      "title": "杀死比尔：血色全传",
+      "releaseDate": "2026-09-04",
+      "genres": "动作 / 犯罪",
+      "region": "美国",
+      "wishCount": 68460,
+      "posterPath": "https://image.tmdb.org/t/p/w500/lmmtfbvRPPnBJc9lXU1PgfRoElh.jpg"
+    },
+    {
+      "doubanId": 36903929,
+      "tmdbId": 1444590,
+      "title": "燃烧吧！爸爸",
+      "releaseDate": "2026-09-05",
+      "genres": "剧情 / 喜剧",
+      "region": "中国大陆",
+      "wishCount": 3244,
+      "posterPath": "https://image.tmdb.org/t/p/w500/3AKDvfJIMf9OC7zcJ7otLTdf7b4.jpg"
+    },
+    {
+      "doubanId": 37527015,
+      "tmdbId": 1550321,
+      "title": "浪花儿",
+      "releaseDate": "2026-09-12",
+      "genres": "纪录片",
+      "region": "中国大陆",
+      "wishCount": 3508,
+      "posterPath": "https://image.tmdb.org/t/p/w500/2uA62I5BzMVmqjyhsTMNtJkLOlO.jpg"
+    },
+    {
+      "doubanId": 36464801,
+      "tmdbId": 1732799,
+      "title": "象行记",
+      "releaseDate": "2026-10-23",
+      "genres": "纪录片",
+      "region": "中国大陆 / 新加坡",
+      "wishCount": 632,
+      "posterPath": "https://image.tmdb.org/t/p/w500/frLlMYq98hKOxtAF8MOu6jU6PYq.jpg"
+    },
+    {
+      "doubanId": 36212391,
+      "tmdbId": 1231322,
+      "title": "流浪地球3(上)",
+      "releaseDate": "2027-02-06",
+      "genres": "科幻 / 冒险 / 灾难",
+      "region": "中国大陆",
+      "wishCount": 99518,
+      "posterPath": "https://image.tmdb.org/t/p/w500/7pNAki9AIaJGhNFOs8ePTFI0lDc.jpg"
+    }
+  ]
 }
