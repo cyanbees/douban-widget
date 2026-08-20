@@ -1,19 +1,9 @@
 {
   "doulistId": "coming_soon",
   "title": "即将上映",
-  "updatedAt": "2026-08-19T00:58:23.908Z",
-  "count": 13,
+  "updatedAt": "2026-08-20T00:58:26.491Z",
+  "count": 14,
   "items": [
-    {
-      "doubanId": 36889088,
-      "tmdbId": 1288445,
-      "title": "怒之杀",
-      "releaseDate": "2026-08-21",
-      "genres": "动作 / 犯罪 / 惊悚",
-      "region": "英国 / 美国",
-      "wishCount": 4158,
-      "posterPath": "https://image.tmdb.org/t/p/w500/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg"
-    },
     {
       "doubanId": 35464353,
       "tmdbId": 1630030,
@@ -21,7 +11,7 @@
       "releaseDate": "2026-08-22",
       "genres": "喜剧 / 动画 / 悬疑",
       "region": "中国大陆",
-      "wishCount": 4575,
+      "wishCount": 4619,
       "posterPath": "https://image.tmdb.org/t/p/w500/fQRYOFC94VUvmjKkh3OF0bqtD81.jpg"
     },
     {
@@ -31,7 +21,7 @@
       "releaseDate": "2026-08-28",
       "genres": "犯罪 / 剧情",
       "region": "美国",
-      "wishCount": 518497,
+      "wishCount": 518601,
       "posterPath": "https://image.tmdb.org/t/p/w500/iKZev9OgfklidO8AvdrYlwung2o.jpg"
     },
     {
@@ -41,7 +31,7 @@
       "releaseDate": "2026-08-28",
       "genres": "剧情 / 悬疑",
       "region": "中国大陆",
-      "wishCount": 1242,
+      "wishCount": 1259,
       "posterPath": "https://image.tmdb.org/t/p/w500/gJpGtOq2fGwYDvsk5seQR7DAKBy.jpg"
     },
     {
@@ -51,7 +41,7 @@
       "releaseDate": "2026-08-28",
       "genres": "剧情",
       "region": "中国大陆",
-      "wishCount": 1146,
+      "wishCount": 1186,
       "posterPath": "https://image.tmdb.org/t/p/w500/kRlgxkA83z6atla0BRcTxHZRFtf.jpg"
     },
     {
@@ -61,7 +51,7 @@
       "releaseDate": "2026-09-01",
       "genres": "剧情 / 动作 / 科幻",
       "region": "美国",
-      "wishCount": 202384,
+      "wishCount": 202423,
       "posterPath": "https://image.tmdb.org/t/p/w500/wXyZYO6BKDh8Evf80DF80VzKcz3.jpg"
     },
     {
@@ -71,7 +61,7 @@
       "releaseDate": "2026-09-01",
       "genres": "喜剧 / 动作 / 犯罪",
       "region": "中国大陆",
-      "wishCount": 2259,
+      "wishCount": 2324,
       "posterPath": "https://image.tmdb.org/t/p/w500/gMBthetNcy0xqZVnBtzgXDylbKD.jpg"
     },
     {
@@ -81,8 +71,18 @@
       "releaseDate": "2026-09-04",
       "genres": "动作 / 犯罪",
       "region": "美国",
-      "wishCount": 69073,
+      "wishCount": 69185,
       "posterPath": "https://image.tmdb.org/t/p/w500/lmmtfbvRPPnBJc9lXU1PgfRoElh.jpg"
+    },
+    {
+      "doubanId": 36889088,
+      "tmdbId": 1288445,
+      "title": "怒之杀",
+      "releaseDate": "2026-09-04",
+      "genres": "动作 / 犯罪 / 惊悚",
+      "region": "英国 / 美国",
+      "wishCount": 4247,
+      "posterPath": "https://image.tmdb.org/t/p/w500/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg"
     },
     {
       "doubanId": 36903929,
@@ -91,7 +91,7 @@
       "releaseDate": "2026-09-05",
       "genres": "剧情 / 喜剧",
       "region": "中国大陆",
-      "wishCount": 3702,
+      "wishCount": 3771,
       "posterPath": "https://image.tmdb.org/t/p/w500/mmgFT1iBf8TaHU8iiF3CZkbgG5Z.jpg"
     },
     {
@@ -101,7 +101,7 @@
       "releaseDate": "2026-09-12",
       "genres": "纪录片",
       "region": "中国大陆",
-      "wishCount": 3610,
+      "wishCount": 3617,
       "posterPath": "https://image.tmdb.org/t/p/w500/2uA62I5BzMVmqjyhsTMNtJkLOlO.jpg"
     },
     {
@@ -115,13 +115,23 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zpjxEGMJLSkw1XdER24dw27HOfj.jpg"
     },
     {
+      "doubanId": 35390242,
+      "tmdbId": 1716541,
+      "title": "我想留在你身边",
+      "releaseDate": "2026-09-12",
+      "genres": "爱情 / 奇幻",
+      "region": "中国大陆",
+      "wishCount": 820,
+      "posterPath": "https://image.tmdb.org/t/p/w500/g3vAs00Nw3kxzBP0g9Q9pmsV7hj.jpg"
+    },
+    {
       "doubanId": 36464801,
       "tmdbId": 1732799,
       "title": "象行记",
       "releaseDate": "2026-10-23",
       "genres": "纪录片",
       "region": "中国大陆 / 新加坡",
-      "wishCount": 734,
+      "wishCount": 746,
       "posterPath": "https://image.tmdb.org/t/p/w500/frLlMYq98hKOxtAF8MOu6jU6PYq.jpg"
     },
     {
@@ -131,7 +141,7 @@
       "releaseDate": "2027-02-06",
       "genres": "科幻 / 冒险 / 灾难",
       "region": "中国大陆",
-      "wishCount": 99918,
+      "wishCount": 99972,
       "posterPath": "https://image.tmdb.org/t/p/w500/7pNAki9AIaJGhNFOs8ePTFI0lDc.jpg"
     }
   ]
