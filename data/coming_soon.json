@@ -1,19 +1,9 @@
 {
   "doulistId": "coming_soon",
   "title": "即将上映",
-  "updatedAt": "2026-09-02T02:35:36.487Z",
-  "count": 19,
+  "updatedAt": "2026-09-03T02:42:19.535Z",
+  "count": 20,
   "items": [
-    {
-      "doubanId": 38188824,
-      "tmdbId": 69632,
-      "title": "正义必胜",
-      "releaseDate": "2026-09-03",
-      "genres": "纪录片",
-      "region": "中国大陆",
-      "wishCount": 3,
-      "posterPath": "https://image.tmdb.org/t/p/w500/xjOA5be30q44Os5VbheW3QUrAsW.jpg"
-    },
     {
       "doubanId": 10756537,
       "tmdbId": 414419,
@@ -21,7 +11,7 @@
       "releaseDate": "2026-09-04",
       "genres": "动作 / 犯罪",
       "region": "美国",
-      "wishCount": 70689,
+      "wishCount": 70895,
       "posterPath": "https://image.tmdb.org/t/p/w500/8w8bV7nmHq25mH68bqZaopMxnV7.jpg"
     },
     {
@@ -31,7 +21,7 @@
       "releaseDate": "2026-09-04",
       "genres": "惊悚 / 冒险",
       "region": "美国 / 英国",
-      "wishCount": 11805,
+      "wishCount": 12266,
       "posterPath": "https://image.tmdb.org/t/p/w500/zLYltuy90xdkrHM9RVNqIPDrcuI.jpg"
     },
     {
@@ -41,7 +31,7 @@
       "releaseDate": "2026-09-04",
       "genres": "动作 / 犯罪 / 惊悚",
       "region": "英国 / 美国",
-      "wishCount": 4612,
+      "wishCount": 4650,
       "posterPath": "https://image.tmdb.org/t/p/w500/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg"
     },
     {
@@ -51,7 +41,7 @@
       "releaseDate": "2026-09-04",
       "genres": "悬疑 / 惊悚 / 恐怖",
       "region": "中国大陆",
-      "wishCount": 955,
+      "wishCount": 987,
       "posterPath": "https://image.tmdb.org/t/p/w500/ea1hDCOeKgSYPbJk2pIK6vIHVQQ.jpg"
     },
     {
@@ -61,7 +51,7 @@
       "releaseDate": "2026-09-05",
       "genres": "剧情 / 喜剧",
       "region": "中国大陆",
-      "wishCount": 4466,
+      "wishCount": 4582,
       "posterPath": "https://image.tmdb.org/t/p/w500/mmgFT1iBf8TaHU8iiF3CZkbgG5Z.jpg"
     },
     {
@@ -71,7 +61,7 @@
       "releaseDate": "2026-09-05",
       "genres": "纪录片 / 短片",
       "region": "加拿大",
-      "wishCount": 1454,
+      "wishCount": 1536,
       "posterPath": "https://image.tmdb.org/t/p/w500/afV7qZCZADQJe10JeUjBcpYvkCZ.jpg"
     },
     {
@@ -81,7 +71,7 @@
       "releaseDate": "2026-09-05",
       "genres": "剧情",
       "region": "中国大陆",
-      "wishCount": 198,
+      "wishCount": 200,
       "posterPath": "https://image.tmdb.org/t/p/w500/7L5YJLL86azwqJE7Aufya0jSNZ1.jpg"
     },
     {
@@ -91,18 +81,8 @@
       "releaseDate": "2026-09-12",
       "genres": "纪录片",
       "region": "中国大陆",
-      "wishCount": 3758,
+      "wishCount": 3767,
       "posterPath": "https://image.tmdb.org/t/p/w500/2uA62I5BzMVmqjyhsTMNtJkLOlO.jpg"
-    },
-    {
-      "doubanId": 36994226,
-      "tmdbId": 1414620,
-      "title": "偷偷喜欢你",
-      "releaseDate": "2026-09-12",
-      "genres": "剧情 / 爱情",
-      "region": "中国台湾",
-      "wishCount": 887,
-      "posterPath": "https://image.tmdb.org/t/p/w500/zpjxEGMJLSkw1XdER24dw27HOfj.jpg"
     },
     {
       "doubanId": 35390242,
@@ -111,8 +91,18 @@
       "releaseDate": "2026-09-12",
       "genres": "爱情 / 奇幻",
       "region": "中国大陆",
-      "wishCount": 883,
+      "wishCount": 895,
       "posterPath": "https://image.tmdb.org/t/p/w500/g3vAs00Nw3kxzBP0g9Q9pmsV7hj.jpg"
+    },
+    {
+      "doubanId": 36994226,
+      "tmdbId": 1414620,
+      "title": "偷偷喜欢你",
+      "releaseDate": "2026-09-12",
+      "genres": "剧情 / 爱情",
+      "region": "中国台湾",
+      "wishCount": 891,
+      "posterPath": "https://image.tmdb.org/t/p/w500/zpjxEGMJLSkw1XdER24dw27HOfj.jpg"
     },
     {
       "doubanId": 36961914,
@@ -121,8 +111,18 @@
       "releaseDate": "2026-09-12",
       "genres": "悬疑 / 惊悚",
       "region": "中国大陆",
-      "wishCount": 93,
+      "wishCount": 97,
       "posterPath": "https://image.tmdb.org/t/p/w500/r0HP4YOmztCsZHEiTAK0zqSk15H.jpg"
+    },
+    {
+      "doubanId": 36192993,
+      "tmdbId": 1761059,
+      "title": "一路超平安",
+      "releaseDate": "2026-09-19",
+      "genres": "喜剧",
+      "region": "中国大陆",
+      "wishCount": 238,
+      "posterPath": "https://image.tmdb.org/t/p/w500/sui5qMd1RRwnxa5yiF9AXZmWF5I.jpg"
     },
     {
       "doubanId": 26100958,
@@ -131,7 +131,7 @@
       "releaseDate": "2026-09-25",
       "genres": "剧情 / 动作 / 科幻",
       "region": "美国",
-      "wishCount": 203153,
+      "wishCount": 203198,
       "posterPath": "https://image.tmdb.org/t/p/w500/wXyZYO6BKDh8Evf80DF80VzKcz3.jpg"
     },
     {
@@ -141,7 +141,7 @@
       "releaseDate": "2026-09-25",
       "genres": "喜剧 / 动作 / 犯罪",
       "region": "中国大陆",
-      "wishCount": 2925,
+      "wishCount": 2965,
       "posterPath": "https://image.tmdb.org/t/p/w500/gMBthetNcy0xqZVnBtzgXDylbKD.jpg"
     },
     {
@@ -151,7 +151,7 @@
       "releaseDate": "2026-09-25",
       "genres": "爱情 / 动画 / 奇幻",
       "region": "中国大陆 / 中国香港",
-      "wishCount": 397,
+      "wishCount": 411,
       "posterPath": "https://image.tmdb.org/t/p/w500/jncEFE0ZEUc6uFxY4yrCRqHo5k3.jpg"
     },
     {
@@ -161,7 +161,7 @@
       "releaseDate": "2026-09-25",
       "genres": "悬疑 / 惊悚 / 恐怖",
       "region": "中国大陆",
-      "wishCount": 315,
+      "wishCount": 322,
       "posterPath": "https://image.tmdb.org/t/p/w500/9azqzuWzexTDU9EuHGqgrn11Gmb.jpg"
     },
     {
@@ -171,8 +171,18 @@
       "releaseDate": "2026-09-25",
       "genres": "剧情 / 喜剧",
       "region": "中国大陆",
-      "wishCount": 118,
+      "wishCount": 122,
       "posterPath": "https://image.tmdb.org/t/p/w500/aiFRIuWz4kspssxl51eqnch0wHM.jpg"
+    },
+    {
+      "doubanId": 36828393,
+      "tmdbId": 1263337,
+      "title": "野兽之心",
+      "releaseDate": "2026-09-30",
+      "genres": "剧情 / 动作 / 惊悚",
+      "region": "美国",
+      "wishCount": 7423,
+      "posterPath": "https://image.tmdb.org/t/p/w500/kY3pGqJu62TPDINS2KZ0uQbTkz4.jpg"
     },
     {
       "doubanId": 36464801,
@@ -181,7 +191,7 @@
       "releaseDate": "2026-10-23",
       "genres": "纪录片",
       "region": "中国大陆 / 新加坡",
-      "wishCount": 911,
+      "wishCount": 918,
       "posterPath": "https://image.tmdb.org/t/p/w500/frLlMYq98hKOxtAF8MOu6jU6PYq.jpg"
     },
     {
@@ -191,7 +201,7 @@
       "releaseDate": "2027-02-06",
       "genres": "科幻 / 冒险 / 灾难",
       "region": "中国大陆",
-      "wishCount": 100590,
+      "wishCount": 100623,
       "posterPath": "https://image.tmdb.org/t/p/w500/7pNAki9AIaJGhNFOs8ePTFI0lDc.jpg"
     }
   ]
