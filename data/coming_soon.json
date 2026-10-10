@@ -1,8 +1,8 @@
 {
   "doulistId": "coming_soon",
   "title": "即将上映",
-  "updatedAt": "2026-10-09T04:18:22.402Z",
-  "count": 12,
+  "updatedAt": "2026-10-10T04:03:40.095Z",
+  "count": 13,
   "items": [
     {
       "doubanId": 36449264,
@@ -11,7 +11,7 @@
       "releaseDate": "2026-10-13",
       "genres": "剧情",
       "region": "中国大陆",
-      "wishCount": 2001,
+      "wishCount": 2076,
       "posterPath": "https://image.tmdb.org/t/p/w500/bPCcEl1AaKcPWQFH58o5DdErIYr.jpg"
     },
     {
@@ -21,7 +21,7 @@
       "releaseDate": "2026-10-16",
       "genres": "剧情 / 惊悚 / 冒险",
       "region": "美国",
-      "wishCount": 4979,
+      "wishCount": 5125,
       "posterPath": "https://image.tmdb.org/t/p/w500/dGDJlUMPbLPavjrpMwUhmDHCBMB.jpg"
     },
     {
@@ -31,7 +31,7 @@
       "releaseDate": "2026-10-17",
       "genres": "历史 / 动画",
       "region": "中国大陆",
-      "wishCount": 44563,
+      "wishCount": 44644,
       "posterPath": "https://image.tmdb.org/t/p/w500/vsDiLRTjXmK75PXG2jPn575yCnj.jpg"
     },
     {
@@ -41,7 +41,7 @@
       "releaseDate": "2026-10-23",
       "genres": "剧情",
       "region": "埃及",
-      "wishCount": 25551,
+      "wishCount": 25808,
       "posterPath": "https://image.tmdb.org/t/p/w500/sQE9PnLTwyP2ZcVTITDH5TCnjpF.jpg"
     },
     {
@@ -51,7 +51,7 @@
       "releaseDate": "2026-10-23",
       "genres": "纪录片",
       "region": "中国大陆 / 新加坡",
-      "wishCount": 1488,
+      "wishCount": 1526,
       "posterPath": "https://image.tmdb.org/t/p/w500/frLlMYq98hKOxtAF8MOu6jU6PYq.jpg"
     },
     {
@@ -61,7 +61,7 @@
       "releaseDate": "2026-10-23",
       "genres": "科幻 / 动画",
       "region": "中国大陆",
-      "wishCount": 607,
+      "wishCount": 640,
       "posterPath": "https://image.tmdb.org/t/p/w500/tJuFseWDhGPUkJMOhMejdx50rD0.jpg"
     },
     {
@@ -71,7 +71,7 @@
       "releaseDate": "2026-10-24",
       "genres": "喜剧 / 动画",
       "region": "英国",
-      "wishCount": 946,
+      "wishCount": 1031,
       "posterPath": "https://image.tmdb.org/t/p/w500/8ucBVfHjEcR0kvIldFibeJlsHFP.jpg"
     },
     {
@@ -81,8 +81,18 @@
       "releaseDate": "2026-10-30",
       "genres": "动作 / 犯罪 / 惊悚",
       "region": "美国",
-      "wishCount": 87932,
+      "wishCount": 88003,
       "posterPath": "https://image.tmdb.org/t/p/w500/5m86tQWN5X1jJ8S3bKPE5D2Ahew.jpg"
+    },
+    {
+      "doubanId": 23774856,
+      "tmdbId": 1117898,
+      "title": "戴帽子的猫",
+      "releaseDate": "2026-11-06",
+      "genres": "喜剧 / 动画 / 奇幻",
+      "region": "美国",
+      "wishCount": 453,
+      "posterPath": "https://image.tmdb.org/t/p/w500/jxkCS5YFMfNivn18gsHTUFggalB.jpg"
     },
     {
       "doubanId": 35068655,
@@ -91,7 +101,7 @@
       "releaseDate": "2026-11-20",
       "genres": "剧情 / 悬疑 / 惊悚",
       "region": "中国大陆",
-      "wishCount": 1104
+      "wishCount": 1111
     },
     {
       "doubanId": 38443833,
@@ -100,7 +110,7 @@
       "releaseDate": "2026-12-31",
       "genres": "剧情 / 爱情",
       "region": "中国大陆",
-      "wishCount": 389,
+      "wishCount": 394,
       "posterPath": "https://image.tmdb.org/t/p/w500/3apeYCnkOcYabQZlygwPzP2MO26.jpg"
     },
     {
@@ -110,7 +120,7 @@
       "releaseDate": "2026-12-31",
       "genres": "动作 / 犯罪",
       "region": "中国大陆",
-      "wishCount": 97,
+      "wishCount": 98,
       "posterPath": "https://image.tmdb.org/t/p/w500/2NnKC9vcjqhJIJ22ILrVH8O7Kk0.jpg"
     },
     {
@@ -120,7 +130,7 @@
       "releaseDate": "2027-02-06",
       "genres": "科幻 / 冒险 / 灾难",
       "region": "中国大陆",
-      "wishCount": 102120,
+      "wishCount": 102172,
       "posterPath": "https://image.tmdb.org/t/p/w500/7pNAki9AIaJGhNFOs8ePTFI0lDc.jpg"
     }
   ]
