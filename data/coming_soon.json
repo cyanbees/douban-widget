@@ -1,19 +1,9 @@
 {
   "doulistId": "coming_soon",
   "title": "即将上映",
-  "updatedAt": "2026-10-12T04:02:45.493Z",
-  "count": 14,
+  "updatedAt": "2026-10-13T05:11:59.935Z",
+  "count": 12,
   "items": [
-    {
-      "doubanId": 36449264,
-      "tmdbId": 1308545,
-      "title": "一个夜晚与三个夏天",
-      "releaseDate": "2026-10-13",
-      "genres": "剧情",
-      "region": "中国大陆",
-      "wishCount": 2289,
-      "posterPath": "https://image.tmdb.org/t/p/w500/bPCcEl1AaKcPWQFH58o5DdErIYr.jpg"
-    },
     {
       "doubanId": 36806762,
       "tmdbId": 1255833,
@@ -21,7 +11,7 @@
       "releaseDate": "2026-10-16",
       "genres": "剧情 / 惊悚 / 冒险",
       "region": "美国",
-      "wishCount": 5456,
+      "wishCount": 5607,
       "posterPath": "https://image.tmdb.org/t/p/w500/dGDJlUMPbLPavjrpMwUhmDHCBMB.jpg"
     },
     {
@@ -31,7 +21,7 @@
       "releaseDate": "2026-10-17",
       "genres": "历史 / 动画",
       "region": "中国大陆",
-      "wishCount": 44872,
+      "wishCount": 44948,
       "posterPath": "https://image.tmdb.org/t/p/w500/vsDiLRTjXmK75PXG2jPn575yCnj.jpg"
     },
     {
@@ -41,18 +31,8 @@
       "releaseDate": "2026-10-23",
       "genres": "剧情",
       "region": "埃及",
-      "wishCount": 26137,
+      "wishCount": 26423,
       "posterPath": "https://image.tmdb.org/t/p/w500/8s8Z58Xah3VSe4kfKZFTUJTT33g.jpg"
-    },
-    {
-      "doubanId": 36464801,
-      "tmdbId": 1732799,
-      "title": "象行记",
-      "releaseDate": "2026-10-23",
-      "genres": "纪录片",
-      "region": "中国大陆 / 新加坡",
-      "wishCount": 1628,
-      "posterPath": "https://image.tmdb.org/t/p/w500/frLlMYq98hKOxtAF8MOu6jU6PYq.jpg"
     },
     {
       "doubanId": 37509917,
@@ -61,7 +41,7 @@
       "releaseDate": "2026-10-23",
       "genres": "科幻 / 动画",
       "region": "中国大陆",
-      "wishCount": 730,
+      "wishCount": 776,
       "posterPath": "https://image.tmdb.org/t/p/w500/tJuFseWDhGPUkJMOhMejdx50rD0.jpg"
     },
     {
@@ -71,7 +51,7 @@
       "releaseDate": "2026-10-24",
       "genres": "喜剧 / 动画",
       "region": "英国",
-      "wishCount": 1141,
+      "wishCount": 1178,
       "posterPath": "https://image.tmdb.org/t/p/w500/8ucBVfHjEcR0kvIldFibeJlsHFP.jpg"
     },
     {
@@ -81,7 +61,7 @@
       "releaseDate": "2026-10-30",
       "genres": "动作 / 犯罪 / 惊悚",
       "region": "美国",
-      "wishCount": 88163,
+      "wishCount": 88250,
       "posterPath": "https://image.tmdb.org/t/p/w500/5m86tQWN5X1jJ8S3bKPE5D2Ahew.jpg"
     },
     {
@@ -91,7 +71,7 @@
       "releaseDate": "2026-11-06",
       "genres": "喜剧 / 动画 / 奇幻",
       "region": "美国",
-      "wishCount": 539,
+      "wishCount": 561,
       "posterPath": "https://image.tmdb.org/t/p/w500/jxkCS5YFMfNivn18gsHTUFggalB.jpg"
     },
     {
@@ -101,7 +81,7 @@
       "releaseDate": "2026-11-20",
       "genres": "剧情 / 悬疑 / 惊悚",
       "region": "中国大陆",
-      "wishCount": 1136
+      "wishCount": 1143
     },
     {
       "doubanId": 36011202,
@@ -110,8 +90,8 @@
       "releaseDate": "2026-12-16",
       "genres": "动作 / 科幻 / 冒险",
       "region": "美国",
-      "wishCount": 86635,
-      "posterPath": "https://image.tmdb.org/t/p/w500/4bhCfFuCfMITX3ZXYmyQKTvvSVI.jpg"
+      "wishCount": 87691,
+      "posterPath": "https://image.tmdb.org/t/p/w500/HUrANkU9dBIyyyth7YcLxAmeAo.jpg"
     },
     {
       "doubanId": 38443833,
@@ -120,7 +100,7 @@
       "releaseDate": "2026-12-31",
       "genres": "剧情 / 爱情",
       "region": "中国大陆",
-      "wishCount": 403,
+      "wishCount": 406,
       "posterPath": "https://image.tmdb.org/t/p/w500/3apeYCnkOcYabQZlygwPzP2MO26.jpg"
     },
     {
@@ -130,7 +110,7 @@
       "releaseDate": "2026-12-31",
       "genres": "动作 / 犯罪",
       "region": "中国大陆",
-      "wishCount": 106,
+      "wishCount": 110,
       "posterPath": "https://image.tmdb.org/t/p/w500/2NnKC9vcjqhJIJ22ILrVH8O7Kk0.jpg"
     },
     {
@@ -140,7 +120,7 @@
       "releaseDate": "2027-02-06",
       "genres": "科幻 / 冒险 / 灾难",
       "region": "中国大陆",
-      "wishCount": 102293,
+      "wishCount": 102340,
       "posterPath": "https://image.tmdb.org/t/p/w500/7pNAki9AIaJGhNFOs8ePTFI0lDc.jpg"
     }
   ]
