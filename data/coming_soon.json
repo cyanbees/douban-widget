@@ -1,19 +1,9 @@
 {
   "doulistId": "coming_soon",
   "title": "即将上映",
-  "updatedAt": "2026-10-15T02:56:34.260Z",
-  "count": 14,
+  "updatedAt": "2026-10-16T02:54:07.274Z",
+  "count": 15,
   "items": [
-    {
-      "doubanId": 36806762,
-      "tmdbId": 1255833,
-      "title": "鲸口脱险",
-      "releaseDate": "2026-10-16",
-      "genres": "剧情 / 惊悚 / 冒险",
-      "region": "美国",
-      "wishCount": 5927,
-      "posterPath": "https://image.tmdb.org/t/p/w500/dGDJlUMPbLPavjrpMwUhmDHCBMB.jpg"
-    },
     {
       "doubanId": 36752981,
       "tmdbId": 1671541,
@@ -21,7 +11,7 @@
       "releaseDate": "2026-10-17",
       "genres": "历史 / 动画",
       "region": "中国大陆",
-      "wishCount": 45090,
+      "wishCount": 45159,
       "posterPath": "https://image.tmdb.org/t/p/w500/vsDiLRTjXmK75PXG2jPn575yCnj.jpg"
     },
     {
@@ -31,8 +21,18 @@
       "releaseDate": "2026-10-23",
       "genres": "剧情",
       "region": "埃及",
-      "wishCount": 26853,
+      "wishCount": 27083,
       "posterPath": "https://image.tmdb.org/t/p/w500/8s8Z58Xah3VSe4kfKZFTUJTT33g.jpg"
+    },
+    {
+      "doubanId": 37088929,
+      "tmdbId": 1726805,
+      "title": "愤怒的老虎",
+      "releaseDate": "2026-10-23",
+      "genres": "剧情 / 犯罪 / 惊悚",
+      "region": "中国大陆",
+      "wishCount": 1950,
+      "posterPath": "https://image.tmdb.org/t/p/w500/xQPBgH87jTfXXUOAhHdrQ4H2SyS.jpg"
     },
     {
       "doubanId": 37509917,
@@ -41,7 +41,7 @@
       "releaseDate": "2026-10-23",
       "genres": "科幻 / 动画",
       "region": "中国大陆",
-      "wishCount": 836,
+      "wishCount": 877,
       "posterPath": "https://image.tmdb.org/t/p/w500/tJuFseWDhGPUkJMOhMejdx50rD0.jpg"
     },
     {
@@ -51,7 +51,7 @@
       "releaseDate": "2026-10-24",
       "genres": "剧情 / 动画 / 奇幻",
       "region": "中国大陆",
-      "wishCount": 44927,
+      "wishCount": 44986,
       "posterPath": "https://image.tmdb.org/t/p/w500/2nXWDju83nclC4vEJ4dkKnLN8gl.jpg"
     },
     {
@@ -61,18 +61,28 @@
       "releaseDate": "2026-10-24",
       "genres": "喜剧 / 动画",
       "region": "英国",
-      "wishCount": 1266,
+      "wishCount": 1296,
       "posterPath": "https://image.tmdb.org/t/p/w500/8ucBVfHjEcR0kvIldFibeJlsHFP.jpg"
     },
     {
       "doubanId": 25798131,
-      "tmdbId": 245891,
+      "tmdbId": 541671,
       "title": "疾速追杀",
       "releaseDate": "2026-10-30",
       "genres": "动作 / 犯罪 / 惊悚",
       "region": "美国",
-      "wishCount": 88386,
-      "posterPath": "https://image.tmdb.org/t/p/w500/5m86tQWN5X1jJ8S3bKPE5D2Ahew.jpg"
+      "wishCount": 88451,
+      "posterPath": "https://image.tmdb.org/t/p/w500/uMQjUm5UEDOuoX7ow2EVEH4tETo.jpg"
+    },
+    {
+      "doubanId": 1294417,
+      "tmdbId": 18672,
+      "title": "笑傲江湖2：东方不败",
+      "releaseDate": "2026-10-30",
+      "genres": "剧情 / 爱情 / 武侠",
+      "region": "中国香港",
+      "wishCount": 50028,
+      "posterPath": "https://image.tmdb.org/t/p/w500/yZYzCiF0uGSg6kRkDE1UKzuesaF.jpg"
     },
     {
       "doubanId": 37047880,
@@ -81,7 +91,7 @@
       "releaseDate": "2026-10-31",
       "genres": "悬疑 / 惊悚 / 恐怖",
       "region": "中国大陆",
-      "wishCount": 44,
+      "wishCount": 47,
       "posterPath": "https://image.tmdb.org/t/p/w500/gsqSXMD1PNRq27bma8CUHrJvC3A.jpg"
     },
     {
@@ -91,7 +101,7 @@
       "releaseDate": "2026-11-06",
       "genres": "喜剧 / 动画 / 奇幻",
       "region": "美国",
-      "wishCount": 617,
+      "wishCount": 646,
       "posterPath": "https://image.tmdb.org/t/p/w500/jxkCS5YFMfNivn18gsHTUFggalB.jpg"
     },
     {
@@ -101,7 +111,7 @@
       "releaseDate": "2026-11-20",
       "genres": "剧情 / 悬疑 / 惊悚",
       "region": "中国大陆",
-      "wishCount": 1163
+      "wishCount": 1170
     },
     {
       "doubanId": 36011202,
@@ -110,7 +120,7 @@
       "releaseDate": "2026-12-16",
       "genres": "动作 / 科幻 / 冒险",
       "region": "美国",
-      "wishCount": 88257,
+      "wishCount": 88505,
       "posterPath": "https://image.tmdb.org/t/p/w500/noX1GBl8agsODI785LIwJJRYADr.jpg"
     },
     {
@@ -120,7 +130,7 @@
       "releaseDate": "2026-12-31",
       "genres": "剧情 / 爱情",
       "region": "中国大陆",
-      "wishCount": 410,
+      "wishCount": 414,
       "posterPath": "https://image.tmdb.org/t/p/w500/3apeYCnkOcYabQZlygwPzP2MO26.jpg"
     },
     {
@@ -130,7 +140,7 @@
       "releaseDate": "2026-12-31",
       "genres": "动作 / 犯罪",
       "region": "中国大陆",
-      "wishCount": 114,
+      "wishCount": 117,
       "posterPath": "https://image.tmdb.org/t/p/w500/2NnKC9vcjqhJIJ22ILrVH8O7Kk0.jpg"
     },
     {
@@ -140,7 +150,7 @@
       "releaseDate": "2027-02-06",
       "genres": "科幻 / 冒险 / 灾难",
       "region": "中国大陆",
-      "wishCount": 102458,
+      "wishCount": 102521,
       "posterPath": "https://image.tmdb.org/t/p/w500/7pNAki9AIaJGhNFOs8ePTFI0lDc.jpg"
     }
   ]
