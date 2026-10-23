@@ -1,49 +1,9 @@
 {
   "doulistId": "coming_soon",
   "title": "即将上映",
-  "updatedAt": "2026-10-22T03:10:05.774Z",
-  "count": 19,
+  "updatedAt": "2026-10-23T03:07:33.239Z",
+  "count": 16,
   "items": [
-    {
-      "doubanId": 37322586,
-      "tmdbId": 37936,
-      "title": "生日快乐",
-      "releaseDate": "2026-10-23",
-      "genres": "剧情",
-      "region": "埃及",
-      "wishCount": 31404,
-      "posterPath": "https://image.tmdb.org/t/p/w500/8s8Z58Xah3VSe4kfKZFTUJTT33g.jpg"
-    },
-    {
-      "doubanId": 37088929,
-      "tmdbId": 1726805,
-      "title": "愤怒的老虎",
-      "releaseDate": "2026-10-23",
-      "genres": "剧情 / 犯罪 / 惊悚",
-      "region": "中国大陆",
-      "wishCount": 2454,
-      "posterPath": "https://image.tmdb.org/t/p/w500/xQPBgH87jTfXXUOAhHdrQ4H2SyS.jpg"
-    },
-    {
-      "doubanId": 36464801,
-      "tmdbId": 1732799,
-      "title": "象行记",
-      "releaseDate": "2026-10-23",
-      "genres": "纪录片",
-      "region": "中国大陆 / 新加坡",
-      "wishCount": 1952,
-      "posterPath": "https://image.tmdb.org/t/p/w500/frLlMYq98hKOxtAF8MOu6jU6PYq.jpg"
-    },
-    {
-      "doubanId": 37509917,
-      "tmdbId": 1782347,
-      "title": "三星堆：未来往事",
-      "releaseDate": "2026-10-23",
-      "genres": "科幻 / 动画",
-      "region": "中国大陆",
-      "wishCount": 1075,
-      "posterPath": "https://image.tmdb.org/t/p/w500/tJuFseWDhGPUkJMOhMejdx50rD0.jpg"
-    },
     {
       "doubanId": 36624248,
       "tmdbId": 1303336,
@@ -51,7 +11,7 @@
       "releaseDate": "2026-10-24",
       "genres": "剧情 / 动画 / 奇幻",
       "region": "中国大陆",
-      "wishCount": 45201,
+      "wishCount": 45227,
       "posterPath": "https://image.tmdb.org/t/p/w500/2nXWDju83nclC4vEJ4dkKnLN8gl.jpg"
     },
     {
@@ -61,7 +21,7 @@
       "releaseDate": "2026-10-24",
       "genres": "喜剧 / 动画",
       "region": "英国",
-      "wishCount": 1574,
+      "wishCount": 1614,
       "posterPath": "https://image.tmdb.org/t/p/w500/8ucBVfHjEcR0kvIldFibeJlsHFP.jpg"
     },
     {
@@ -71,7 +31,7 @@
       "releaseDate": "2026-10-30",
       "genres": "动作 / 犯罪 / 惊悚",
       "region": "美国",
-      "wishCount": 88846,
+      "wishCount": 88933,
       "posterPath": "https://image.tmdb.org/t/p/w500/dKtgSYi2AwlaHYo1Iqie8wlMsc5.jpg"
     },
     {
@@ -81,8 +41,8 @@
       "releaseDate": "2026-10-30",
       "genres": "动作 / 爱情 / 武侠",
       "region": "中国香港",
-      "wishCount": 50510,
-      "posterPath": "https://image.tmdb.org/t/p/w500/yZYzCiF0uGSg6kRkDE1UKzuesaF.jpg"
+      "wishCount": 50567,
+      "posterPath": "https://image.tmdb.org/t/p/w500/ilQUy2xWgJo9rZnXtLhJrzQfYum.jpg"
     },
     {
       "doubanId": 37047880,
@@ -91,7 +51,7 @@
       "releaseDate": "2026-10-31",
       "genres": "悬疑 / 惊悚 / 恐怖",
       "region": "中国大陆",
-      "wishCount": 88,
+      "wishCount": 91,
       "posterPath": "https://image.tmdb.org/t/p/w500/gsqSXMD1PNRq27bma8CUHrJvC3A.jpg"
     },
     {
@@ -101,8 +61,18 @@
       "releaseDate": "2026-11-06",
       "genres": "剧情",
       "region": "中国香港",
-      "wishCount": 1661,
+      "wishCount": 1705,
       "posterPath": "https://image.tmdb.org/t/p/w500/6roGZvD730gzQb8tUGwu55gAasW.jpg"
+    },
+    {
+      "doubanId": 37822528,
+      "tmdbId": 1603262,
+      "title": "珠穆朗玛：云中彼岸",
+      "releaseDate": "2026-11-06",
+      "genres": "纪录片 / 运动",
+      "region": "美国 / 中国大陆",
+      "wishCount": 1012,
+      "posterPath": "https://image.tmdb.org/t/p/w500/cWbDLsCIChns73qh5Gd6u2e5zQ4.jpg"
     },
     {
       "doubanId": 23774856,
@@ -111,7 +81,7 @@
       "releaseDate": "2026-11-06",
       "genres": "喜剧 / 动画 / 奇幻",
       "region": "美国",
-      "wishCount": 762,
+      "wishCount": 775,
       "posterPath": "https://image.tmdb.org/t/p/w500/jxkCS5YFMfNivn18gsHTUFggalB.jpg"
     },
     {
@@ -121,7 +91,7 @@
       "releaseDate": "2026-11-07",
       "genres": "剧情",
       "region": "中国大陆",
-      "wishCount": 9740,
+      "wishCount": 9819,
       "posterPath": "https://image.tmdb.org/t/p/w500/x9qOS6bmqS0aeElkfH9qdO9NPVJ.jpg"
     },
     {
@@ -131,7 +101,7 @@
       "releaseDate": "2026-11-07",
       "genres": "纪录片",
       "region": "中国大陆",
-      "wishCount": 119,
+      "wishCount": 131,
       "posterPath": "https://image.tmdb.org/t/p/w500/86HPqlrN9vCAoJ0CSOp00wnC7xQ.jpg"
     },
     {
@@ -141,7 +111,7 @@
       "releaseDate": "2026-11-20",
       "genres": "剧情 / 悬疑 / 惊悚",
       "region": "中国大陆",
-      "wishCount": 1217
+      "wishCount": 1222
     },
     {
       "doubanId": 36011202,
@@ -150,7 +120,7 @@
       "releaseDate": "2026-12-16",
       "genres": "动作 / 科幻 / 冒险",
       "region": "美国",
-      "wishCount": 89798,
+      "wishCount": 89987,
       "posterPath": "https://image.tmdb.org/t/p/w500/noX1GBl8agsODI785LIwJJRYADr.jpg"
     },
     {
@@ -160,7 +130,7 @@
       "releaseDate": "2026-12-31",
       "genres": "剧情 / 动作 / 科幻",
       "region": "美国",
-      "wishCount": 78251,
+      "wishCount": 78455,
       "posterPath": "https://image.tmdb.org/t/p/w500/eqbAXAWB8uxXywNkKqUsQ2sbErJ.jpg"
     },
     {
@@ -180,7 +150,7 @@
       "releaseDate": "2026-12-31",
       "genres": "动作 / 犯罪",
       "region": "中国大陆",
-      "wishCount": 139,
+      "wishCount": 141,
       "posterPath": "https://image.tmdb.org/t/p/w500/2NnKC9vcjqhJIJ22ILrVH8O7Kk0.jpg"
     },
     {
@@ -190,7 +160,7 @@
       "releaseDate": "2027-02-06",
       "genres": "科幻 / 冒险 / 灾难",
       "region": "中国大陆",
-      "wishCount": 102834,
+      "wishCount": 102870,
       "posterPath": "https://image.tmdb.org/t/p/w500/7pNAki9AIaJGhNFOs8ePTFI0lDc.jpg"
     }
   ]
