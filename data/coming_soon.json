@@ -1,29 +1,9 @@
 {
   "doulistId": "coming_soon",
   "title": "即将上映",
-  "updatedAt": "2026-10-23T03:07:33.239Z",
-  "count": 16,
+  "updatedAt": "2026-10-24T03:02:46.582Z",
+  "count": 15,
   "items": [
-    {
-      "doubanId": 36624248,
-      "tmdbId": 1303336,
-      "title": "落凡尘",
-      "releaseDate": "2026-10-24",
-      "genres": "剧情 / 动画 / 奇幻",
-      "region": "中国大陆",
-      "wishCount": 45227,
-      "posterPath": "https://image.tmdb.org/t/p/w500/2nXWDju83nclC4vEJ4dkKnLN8gl.jpg"
-    },
-    {
-      "doubanId": 37344902,
-      "tmdbId": 1477104,
-      "title": "小羊肖恩3：怪兽来袭",
-      "releaseDate": "2026-10-24",
-      "genres": "喜剧 / 动画",
-      "region": "英国",
-      "wishCount": 1614,
-      "posterPath": "https://image.tmdb.org/t/p/w500/8ucBVfHjEcR0kvIldFibeJlsHFP.jpg"
-    },
     {
       "doubanId": 25798131,
       "tmdbId": 603692,
@@ -31,7 +11,7 @@
       "releaseDate": "2026-10-30",
       "genres": "动作 / 犯罪 / 惊悚",
       "region": "美国",
-      "wishCount": 88933,
+      "wishCount": 88998,
       "posterPath": "https://image.tmdb.org/t/p/w500/dKtgSYi2AwlaHYo1Iqie8wlMsc5.jpg"
     },
     {
@@ -41,8 +21,8 @@
       "releaseDate": "2026-10-30",
       "genres": "动作 / 爱情 / 武侠",
       "region": "中国香港",
-      "wishCount": 50567,
-      "posterPath": "https://image.tmdb.org/t/p/w500/ilQUy2xWgJo9rZnXtLhJrzQfYum.jpg"
+      "wishCount": 50639,
+      "posterPath": "https://image.tmdb.org/t/p/w500/yZYzCiF0uGSg6kRkDE1UKzuesaF.jpg"
     },
     {
       "doubanId": 37047880,
@@ -51,7 +31,7 @@
       "releaseDate": "2026-10-31",
       "genres": "悬疑 / 惊悚 / 恐怖",
       "region": "中国大陆",
-      "wishCount": 91,
+      "wishCount": 95,
       "posterPath": "https://image.tmdb.org/t/p/w500/gsqSXMD1PNRq27bma8CUHrJvC3A.jpg"
     },
     {
@@ -61,7 +41,7 @@
       "releaseDate": "2026-11-06",
       "genres": "剧情",
       "region": "中国香港",
-      "wishCount": 1705,
+      "wishCount": 1745,
       "posterPath": "https://image.tmdb.org/t/p/w500/6roGZvD730gzQb8tUGwu55gAasW.jpg"
     },
     {
@@ -71,7 +51,7 @@
       "releaseDate": "2026-11-06",
       "genres": "纪录片 / 运动",
       "region": "美国 / 中国大陆",
-      "wishCount": 1012,
+      "wishCount": 1159,
       "posterPath": "https://image.tmdb.org/t/p/w500/cWbDLsCIChns73qh5Gd6u2e5zQ4.jpg"
     },
     {
@@ -81,7 +61,7 @@
       "releaseDate": "2026-11-06",
       "genres": "喜剧 / 动画 / 奇幻",
       "region": "美国",
-      "wishCount": 775,
+      "wishCount": 794,
       "posterPath": "https://image.tmdb.org/t/p/w500/jxkCS5YFMfNivn18gsHTUFggalB.jpg"
     },
     {
@@ -91,7 +71,7 @@
       "releaseDate": "2026-11-07",
       "genres": "剧情",
       "region": "中国大陆",
-      "wishCount": 9819,
+      "wishCount": 9879,
       "posterPath": "https://image.tmdb.org/t/p/w500/x9qOS6bmqS0aeElkfH9qdO9NPVJ.jpg"
     },
     {
@@ -101,7 +81,7 @@
       "releaseDate": "2026-11-07",
       "genres": "纪录片",
       "region": "中国大陆",
-      "wishCount": 131,
+      "wishCount": 144,
       "posterPath": "https://image.tmdb.org/t/p/w500/86HPqlrN9vCAoJ0CSOp00wnC7xQ.jpg"
     },
     {
@@ -111,7 +91,17 @@
       "releaseDate": "2026-11-20",
       "genres": "剧情 / 悬疑 / 惊悚",
       "region": "中国大陆",
-      "wishCount": 1222
+      "wishCount": 1231
+    },
+    {
+      "doubanId": 36313679,
+      "tmdbId": 1100099,
+      "title": "时间里的爱人",
+      "releaseDate": "2026-11-28",
+      "genres": "剧情 / 爱情",
+      "region": "英国 / 法国",
+      "wishCount": 8635,
+      "posterPath": "https://image.tmdb.org/t/p/w500/ytOxdx2jwJtRgx8jc0kUqp6HMnD.jpg"
     },
     {
       "doubanId": 36011202,
@@ -120,7 +110,7 @@
       "releaseDate": "2026-12-16",
       "genres": "动作 / 科幻 / 冒险",
       "region": "美国",
-      "wishCount": 89987,
+      "wishCount": 90157,
       "posterPath": "https://image.tmdb.org/t/p/w500/noX1GBl8agsODI785LIwJJRYADr.jpg"
     },
     {
@@ -130,7 +120,7 @@
       "releaseDate": "2026-12-31",
       "genres": "剧情 / 动作 / 科幻",
       "region": "美国",
-      "wishCount": 78455,
+      "wishCount": 78620,
       "posterPath": "https://image.tmdb.org/t/p/w500/eqbAXAWB8uxXywNkKqUsQ2sbErJ.jpg"
     },
     {
@@ -140,7 +130,7 @@
       "releaseDate": "2026-12-31",
       "genres": "剧情 / 爱情",
       "region": "中国大陆",
-      "wishCount": 449,
+      "wishCount": 453,
       "posterPath": "https://image.tmdb.org/t/p/w500/3apeYCnkOcYabQZlygwPzP2MO26.jpg"
     },
     {
@@ -150,7 +140,7 @@
       "releaseDate": "2026-12-31",
       "genres": "动作 / 犯罪",
       "region": "中国大陆",
-      "wishCount": 141,
+      "wishCount": 143,
       "posterPath": "https://image.tmdb.org/t/p/w500/2NnKC9vcjqhJIJ22ILrVH8O7Kk0.jpg"
     },
     {
@@ -160,7 +150,7 @@
       "releaseDate": "2027-02-06",
       "genres": "科幻 / 冒险 / 灾难",
       "region": "中国大陆",
-      "wishCount": 102870,
+      "wishCount": 102923,
       "posterPath": "https://image.tmdb.org/t/p/w500/7pNAki9AIaJGhNFOs8ePTFI0lDc.jpg"
     }
   ]
