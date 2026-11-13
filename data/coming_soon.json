@@ -1,29 +1,9 @@
 {
   "doulistId": "coming_soon",
   "title": "即将上映",
-  "updatedAt": "2026-11-12T05:31:39.192Z",
+  "updatedAt": "2026-11-13T04:49:24.823Z",
   "count": 21,
   "items": [
-    {
-      "doubanId": 1292001,
-      "tmdbId": 10376,
-      "title": "海上钢琴师",
-      "releaseDate": "2026-11-13",
-      "genres": "剧情 / 音乐",
-      "region": "意大利",
-      "wishCount": 676299,
-      "posterPath": "https://image.tmdb.org/t/p/w500/bXk1kSDSiVPj06LtpESZK7C8HsL.jpg"
-    },
-    {
-      "doubanId": 37388286,
-      "tmdbId": 1529692,
-      "title": "夫妻一场",
-      "releaseDate": "2026-11-13",
-      "genres": "纪录片",
-      "region": "中国大陆",
-      "wishCount": 1333,
-      "posterPath": "https://image.tmdb.org/t/p/w500/qi9Wa8TQfhNZmC0PHxOYi68lMfr.jpg"
-    },
     {
       "doubanId": 37409137,
       "tmdbId": 1821748,
@@ -31,7 +11,7 @@
       "releaseDate": "2026-11-14",
       "genres": "剧情 / 喜剧 / 犯罪",
       "region": "中国大陆",
-      "wishCount": 522,
+      "wishCount": 570,
       "posterPath": "https://image.tmdb.org/t/p/w500/5ceN7TJ27djX29YtPYvliik9e1T.jpg"
     },
     {
@@ -41,7 +21,7 @@
       "releaseDate": "2026-11-14",
       "genres": "剧情",
       "region": "中国大陆",
-      "wishCount": 71,
+      "wishCount": 81,
       "posterPath": "https://image.tmdb.org/t/p/w500/ytbvQ1rdOo4OGMcjr1P1fZtaJ67.jpg"
     },
     {
@@ -51,7 +31,7 @@
       "releaseDate": "2026-11-19",
       "genres": "剧情",
       "region": "中国台湾 / 意大利",
-      "wishCount": 11556,
+      "wishCount": 11598,
       "posterPath": "https://image.tmdb.org/t/p/w500/rSi6JslKprYh6i0HSfwBMtXnyDd.jpg"
     },
     {
@@ -61,7 +41,7 @@
       "releaseDate": "2026-11-20",
       "genres": "动作 / 科幻 / 冒险",
       "region": "美国",
-      "wishCount": 10808,
+      "wishCount": 11361,
       "posterPath": "https://image.tmdb.org/t/p/w500/jPPiwFKBzrsNtBQVymuwsyt9qBw.jpg"
     },
     {
@@ -71,7 +51,7 @@
       "releaseDate": "2026-11-20",
       "genres": "剧情 / 武侠 / 古装",
       "region": "中国台湾",
-      "wishCount": 711,
+      "wishCount": 726,
       "posterPath": "https://image.tmdb.org/t/p/w500/l91IYx9ZbZr72rikfKmDTPee2Im.jpg"
     },
     {
@@ -81,7 +61,7 @@
       "releaseDate": "2026-11-20",
       "genres": "剧情 / 喜剧 / 家庭",
       "region": "中国大陆",
-      "wishCount": 139,
+      "wishCount": 180,
       "posterPath": "https://image.tmdb.org/t/p/w500/FBcloDR9qkTyxHOjmwAinYhPMr.jpg"
     },
     {
@@ -91,8 +71,8 @@
       "releaseDate": "2026-11-21",
       "genres": "悬疑 / 惊悚",
       "region": "中国大陆",
-      "wishCount": 1518,
-      "posterPath": "https://image.tmdb.org/t/p/w500/dGj9WLTLL8xA1jlEo5RmhProV7G.jpg"
+      "wishCount": 1539,
+      "posterPath": "https://image.tmdb.org/t/p/w500/pz0aI3dgcfsJLxJFzt4Dh5sp2Mb.jpg"
     },
     {
       "doubanId": 27102569,
@@ -101,7 +81,7 @@
       "releaseDate": "2026-11-27",
       "genres": "剧情 / 爱情",
       "region": "中国大陆",
-      "wishCount": 75098,
+      "wishCount": 75105,
       "posterPath": "https://image.tmdb.org/t/p/w500/9a6YsnWPgiI4xnLA5DhYuG2hImM.jpg"
     },
     {
@@ -111,7 +91,7 @@
       "releaseDate": "2026-11-27",
       "genres": "喜剧 / 动画 / 奇幻",
       "region": "美国",
-      "wishCount": 2519,
+      "wishCount": 2589,
       "posterPath": "https://image.tmdb.org/t/p/w500/jsAhBolI6Rn9Iva635bNf27rJc2.jpg"
     },
     {
@@ -121,7 +101,7 @@
       "releaseDate": "2026-11-27",
       "genres": "剧情 / 家庭",
       "region": "中国大陆",
-      "wishCount": 1317,
+      "wishCount": 1350,
       "posterPath": "https://image.tmdb.org/t/p/w500/3BDxKSy6UFx7DZf8HVzVlKR5Xah.jpg"
     },
     {
@@ -131,7 +111,7 @@
       "releaseDate": "2026-11-28",
       "genres": "剧情 / 爱情",
       "region": "英国 / 法国",
-      "wishCount": 9266,
+      "wishCount": 9284,
       "posterPath": "https://image.tmdb.org/t/p/w500/ytOxdx2jwJtRgx8jc0kUqp6HMnD.jpg"
     },
     {
@@ -141,8 +121,28 @@
       "releaseDate": "2026-12-01",
       "genres": "戏曲",
       "region": "中国大陆",
-      "wishCount": 42,
+      "wishCount": 55,
       "posterPath": "https://image.tmdb.org/t/p/w500/yw10vKTWKy1nVRWf0j0fL3bjO4t.jpg"
+    },
+    {
+      "doubanId": 37354971,
+      "tmdbId": 1481451,
+      "title": "消失的金凤娜",
+      "releaseDate": "2026-12-01",
+      "genres": "剧情 / 惊悚",
+      "region": "中国台湾",
+      "wishCount": 636,
+      "posterPath": "https://image.tmdb.org/t/p/w500/yiT8kjxJsmE8nFY7DEmNUxcJ4bF.jpg"
+    },
+    {
+      "doubanId": 36494168,
+      "tmdbId": 1335881,
+      "title": "喜欢了你一整个青春",
+      "releaseDate": "2026-12-05",
+      "genres": "剧情 / 爱情",
+      "region": "中国台湾",
+      "wishCount": 1067,
+      "posterPath": "https://image.tmdb.org/t/p/w500/zyJ1a6kY4VatxhwBOOmxKurCwKv.jpg"
     },
     {
       "doubanId": 37452950,
@@ -151,7 +151,7 @@
       "releaseDate": "2026-12-12",
       "genres": "剧情 / 爱情",
       "region": "中国大陆",
-      "wishCount": 764,
+      "wishCount": 767,
       "posterPath": "https://image.tmdb.org/t/p/w500/fPP5X3xlc94r5JsGBmrQYdNb9Xv.jpg"
     },
     {
@@ -161,7 +161,7 @@
       "releaseDate": "2026-12-16",
       "genres": "动作 / 科幻 / 冒险",
       "region": "美国",
-      "wishCount": 93677,
+      "wishCount": 93881,
       "posterPath": "https://image.tmdb.org/t/p/w500/1CXOvSlK8R0dqc4u1QqDDZkH3ql.jpg"
     },
     {
@@ -171,7 +171,7 @@
       "releaseDate": "2026-12-31",
       "genres": "剧情 / 动作 / 科幻",
       "region": "美国",
-      "wishCount": 81424,
+      "wishCount": 81556,
       "posterPath": "https://image.tmdb.org/t/p/w500/KDlLzHTTE7vjplaXT5SfRZahwZ.jpg"
     },
     {
@@ -181,7 +181,7 @@
       "releaseDate": "2026-12-31",
       "genres": "剧情 / 爱情",
       "region": "中国大陆",
-      "wishCount": 542,
+      "wishCount": 549,
       "posterPath": "https://image.tmdb.org/t/p/w500/3apeYCnkOcYabQZlygwPzP2MO26.jpg"
     },
     {
@@ -191,7 +191,7 @@
       "releaseDate": "2026-12-31",
       "genres": "动作 / 犯罪",
       "region": "中国大陆",
-      "wishCount": 166,
+      "wishCount": 168,
       "posterPath": "https://image.tmdb.org/t/p/w500/2NnKC9vcjqhJIJ22ILrVH8O7Kk0.jpg"
     },
     {
@@ -201,7 +201,7 @@
       "releaseDate": "2027-02-06",
       "genres": "科幻 / 冒险 / 灾难",
       "region": "中国大陆",
-      "wishCount": 103825,
+      "wishCount": 103868,
       "posterPath": "https://image.tmdb.org/t/p/w500/7pNAki9AIaJGhNFOs8ePTFI0lDc.jpg"
     },
     {
@@ -211,7 +211,7 @@
       "releaseDate": "2027-03-08",
       "genres": "剧情 / 纪录片",
       "region": "中国大陆",
-      "wishCount": 468,
+      "wishCount": 484,
       "posterPath": "https://image.tmdb.org/t/p/w500/r7MVwtPRgYuZYDsFZhfeV8YmrA0.jpg"
     }
   ]
