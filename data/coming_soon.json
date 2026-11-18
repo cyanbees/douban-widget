@@ -1,8 +1,8 @@
 {
   "doulistId": "coming_soon",
   "title": "即将上映",
-  "updatedAt": "2026-11-17T06:16:26.409Z",
-  "count": 21,
+  "updatedAt": "2026-11-18T05:42:49.804Z",
+  "count": 23,
   "items": [
     {
       "doubanId": 35211934,
@@ -11,7 +11,7 @@
       "releaseDate": "2026-11-19",
       "genres": "剧情",
       "region": "中国台湾 / 意大利",
-      "wishCount": 11739,
+      "wishCount": 11791,
       "posterPath": "https://image.tmdb.org/t/p/w500/rSi6JslKprYh6i0HSfwBMtXnyDd.jpg"
     },
     {
@@ -21,7 +21,7 @@
       "releaseDate": "2026-11-20",
       "genres": "动作 / 科幻 / 冒险",
       "region": "美国",
-      "wishCount": 12830,
+      "wishCount": 13500,
       "posterPath": "https://image.tmdb.org/t/p/w500/r47dh8cGfgJ7yCq07oBY7bS1sKs.jpg"
     },
     {
@@ -31,7 +31,7 @@
       "releaseDate": "2026-11-20",
       "genres": "剧情 / 武侠 / 古装",
       "region": "中国台湾",
-      "wishCount": 782,
+      "wishCount": 793,
       "posterPath": "https://image.tmdb.org/t/p/w500/l91IYx9ZbZr72rikfKmDTPee2Im.jpg"
     },
     {
@@ -41,7 +41,7 @@
       "releaseDate": "2026-11-20",
       "genres": "剧情 / 喜剧 / 家庭",
       "region": "中国大陆",
-      "wishCount": 443,
+      "wishCount": 497,
       "posterPath": "https://image.tmdb.org/t/p/w500/FBcloDR9qkTyxHOjmwAinYhPMr.jpg"
     },
     {
@@ -51,7 +51,7 @@
       "releaseDate": "2026-11-21",
       "genres": "悬疑 / 惊悚",
       "region": "中国大陆",
-      "wishCount": 1620,
+      "wishCount": 1632,
       "posterPath": "https://image.tmdb.org/t/p/w500/pz0aI3dgcfsJLxJFzt4Dh5sp2Mb.jpg"
     },
     {
@@ -61,7 +61,7 @@
       "releaseDate": "2026-11-27",
       "genres": "剧情 / 科幻 / 冒险",
       "region": "美国",
-      "wishCount": 219648,
+      "wishCount": 219712,
       "posterPath": "https://image.tmdb.org/t/p/w500/pJ39749QfmtCJELCct9JzMTtrjE.jpg"
     },
     {
@@ -71,8 +71,18 @@
       "releaseDate": "2026-11-27",
       "genres": "剧情 / 爱情",
       "region": "中国大陆",
-      "wishCount": 75145,
+      "wishCount": 75151,
       "posterPath": "https://image.tmdb.org/t/p/w500/9a6YsnWPgiI4xnLA5DhYuG2hImM.jpg"
+    },
+    {
+      "doubanId": 37154591,
+      "tmdbId": 1400940,
+      "title": "泥面人",
+      "releaseDate": "2026-11-27",
+      "genres": "动作 / 奇幻 / 惊悚",
+      "region": "美国",
+      "wishCount": 25799,
+      "posterPath": "https://image.tmdb.org/t/p/w500/8AKvV4bJsfUBUZ7cgW41iv3EYaG.jpg"
     },
     {
       "doubanId": 37503053,
@@ -81,7 +91,7 @@
       "releaseDate": "2026-11-27",
       "genres": "喜剧 / 动画 / 奇幻",
       "region": "美国",
-      "wishCount": 2860,
+      "wishCount": 2910,
       "posterPath": "https://image.tmdb.org/t/p/w500/jsAhBolI6Rn9Iva635bNf27rJc2.jpg"
     },
     {
@@ -91,8 +101,18 @@
       "releaseDate": "2026-11-27",
       "genres": "剧情 / 家庭",
       "region": "中国大陆",
-      "wishCount": 1469,
+      "wishCount": 1490,
       "posterPath": "https://image.tmdb.org/t/p/w500/3BDxKSy6UFx7DZf8HVzVlKR5Xah.jpg"
+    },
+    {
+      "doubanId": 36098322,
+      "tmdbId": 1828882,
+      "title": "循环街区",
+      "releaseDate": "2026-11-27",
+      "genres": "爱情 / 科幻 / 悬疑",
+      "region": "中国大陆",
+      "wishCount": 544,
+      "posterPath": "https://image.tmdb.org/t/p/w500/d0rpztpoHH8CKIyq8LYDfcJ4MCk.jpg"
     },
     {
       "doubanId": 36313679,
@@ -101,7 +121,7 @@
       "releaseDate": "2026-11-28",
       "genres": "剧情 / 爱情",
       "region": "英国 / 法国",
-      "wishCount": 9371,
+      "wishCount": 9396,
       "posterPath": "https://image.tmdb.org/t/p/w500/ytOxdx2jwJtRgx8jc0kUqp6HMnD.jpg"
     },
     {
@@ -111,7 +131,7 @@
       "releaseDate": "2026-12-01",
       "genres": "戏曲",
       "region": "中国大陆",
-      "wishCount": 101,
+      "wishCount": 106,
       "posterPath": "https://image.tmdb.org/t/p/w500/yw10vKTWKy1nVRWf0j0fL3bjO4t.jpg"
     },
     {
@@ -121,7 +141,7 @@
       "releaseDate": "2026-12-04",
       "genres": "剧情 / 动作 / 科幻",
       "region": "美国 / 加拿大",
-      "wishCount": 134560,
+      "wishCount": 134613,
       "posterPath": "https://image.tmdb.org/t/p/w500/aYKyogZGZmrdn5QdEzPvViBkkVZ.jpg"
     },
     {
@@ -131,7 +151,7 @@
       "releaseDate": "2026-12-05",
       "genres": "剧情 / 爱情",
       "region": "中国台湾",
-      "wishCount": 1128,
+      "wishCount": 1138,
       "posterPath": "https://image.tmdb.org/t/p/w500/zyJ1a6kY4VatxhwBOOmxKurCwKv.jpg"
     },
     {
@@ -151,7 +171,7 @@
       "releaseDate": "2026-12-16",
       "genres": "动作 / 科幻 / 冒险",
       "region": "美国",
-      "wishCount": 94989,
+      "wishCount": 95266,
       "posterPath": "https://image.tmdb.org/t/p/w500/1CXOvSlK8R0dqc4u1QqDDZkH3ql.jpg"
     },
     {
@@ -161,7 +181,7 @@
       "releaseDate": "2026-12-18",
       "genres": "剧情",
       "region": "中国大陆",
-      "wishCount": 36,
+      "wishCount": 40,
       "posterPath": "https://image.tmdb.org/t/p/w500/fkGu2J4DgjXCgx3dZv0lsKhUx9l.jpg"
     },
     {
@@ -171,7 +191,7 @@
       "releaseDate": "2026-12-31",
       "genres": "剧情 / 动作 / 科幻",
       "region": "美国",
-      "wishCount": 82317,
+      "wishCount": 82601,
       "posterPath": "https://image.tmdb.org/t/p/w500/KDlLzHTTE7vjplaXT5SfRZahwZ.jpg"
     },
     {
@@ -181,7 +201,7 @@
       "releaseDate": "2026-12-31",
       "genres": "剧情 / 爱情",
       "region": "中国大陆",
-      "wishCount": 573,
+      "wishCount": 578,
       "posterPath": "https://image.tmdb.org/t/p/w500/3apeYCnkOcYabQZlygwPzP2MO26.jpg"
     },
     {
@@ -191,7 +211,7 @@
       "releaseDate": "2026-12-31",
       "genres": "动作 / 犯罪",
       "region": "中国大陆",
-      "wishCount": 175,
+      "wishCount": 177,
       "posterPath": "https://image.tmdb.org/t/p/w500/2NnKC9vcjqhJIJ22ILrVH8O7Kk0.jpg"
     },
     {
@@ -201,7 +221,7 @@
       "releaseDate": "2027-02-06",
       "genres": "科幻 / 冒险 / 灾难",
       "region": "中国大陆",
-      "wishCount": 104130,
+      "wishCount": 104206,
       "posterPath": "https://image.tmdb.org/t/p/w500/7pNAki9AIaJGhNFOs8ePTFI0lDc.jpg"
     },
     {
@@ -211,7 +231,7 @@
       "releaseDate": "2027-03-08",
       "genres": "剧情 / 纪录片",
       "region": "中国大陆",
-      "wishCount": 546,
+      "wishCount": 558,
       "posterPath": "https://image.tmdb.org/t/p/w500/r7MVwtPRgYuZYDsFZhfeV8YmrA0.jpg"
     }
   ]
